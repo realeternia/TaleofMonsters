@@ -1,0 +1,3184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DC2272A3-3148-4D36-A898-57B7CDA658FD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PicResource</RootNamespace>
+    <AssemblyName>PicResource</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Achieve\beast1.PNG" />
+    <EmbeddedResource Include="Achieve\beast2.PNG" />
+    <EmbeddedResource Include="Achieve\bird1.PNG" />
+    <EmbeddedResource Include="Achieve\bird2.PNG" />
+    <EmbeddedResource Include="Achieve\card1.PNG" />
+    <EmbeddedResource Include="Achieve\card2.PNG" />
+    <EmbeddedResource Include="Achieve\card3.PNG" />
+    <EmbeddedResource Include="Achieve\card4.PNG" />
+    <EmbeddedResource Include="Achieve\card5.PNG" />
+    <EmbeddedResource Include="Achieve\card6.PNG" />
+    <EmbeddedResource Include="Achieve\card7.PNG" />
+    <EmbeddedResource Include="Achieve\card8.PNG" />
+    <EmbeddedResource Include="Achieve\creature.PNG" />
+    <EmbeddedResource Include="Achieve\crystal1.PNG" />
+    <EmbeddedResource Include="Achieve\crystal2.PNG" />
+    <EmbeddedResource Include="Achieve\dark1.PNG" />
+    <EmbeddedResource Include="Achieve\dark2.PNG" />
+    <EmbeddedResource Include="Achieve\demon1.PNG" />
+    <EmbeddedResource Include="Achieve\demon2.PNG" />
+    <EmbeddedResource Include="Achieve\dig.PNG" />
+    <EmbeddedResource Include="Achieve\dragon1.PNG" />
+    <EmbeddedResource Include="Achieve\dragon2.PNG" />
+    <EmbeddedResource Include="Achieve\earth1.PNG" />
+    <EmbeddedResource Include="Achieve\earth2.PNG" />
+    <EmbeddedResource Include="Achieve\elec1.PNG" />
+    <EmbeddedResource Include="Achieve\elec2.PNG" />
+    <EmbeddedResource Include="Achieve\element1.PNG" />
+    <EmbeddedResource Include="Achieve\element2.PNG" />
+    <EmbeddedResource Include="Achieve\elf1.PNG" />
+    <EmbeddedResource Include="Achieve\elf2.PNG" />
+    <EmbeddedResource Include="Achieve\fire1.PNG" />
+    <EmbeddedResource Include="Achieve\fire2.PNG" />
+    <EmbeddedResource Include="Achieve\fish.PNG" />
+    <EmbeddedResource Include="Achieve\fish1.PNG" />
+    <EmbeddedResource Include="Achieve\fish2.PNG" />
+    <EmbeddedResource Include="Achieve\gem1.PNG" />
+    <EmbeddedResource Include="Achieve\gem2.PNG" />
+    <EmbeddedResource Include="Achieve\goblin1.PNG" />
+    <EmbeddedResource Include="Achieve\goblin2.PNG" />
+    <EmbeddedResource Include="Achieve\gold1.PNG" />
+    <EmbeddedResource Include="Achieve\gold2.PNG" />
+    <EmbeddedResource Include="Achieve\greed.PNG" />
+    <EmbeddedResource Include="Achieve\head1.PNG" />
+    <EmbeddedResource Include="Achieve\head2.PNG" />
+    <EmbeddedResource Include="Achieve\head3.PNG" />
+    <EmbeddedResource Include="Achieve\hero1.PNG" />
+    <EmbeddedResource Include="Achieve\hero2.PNG" />
+    <EmbeddedResource Include="Achieve\human1.PNG" />
+    <EmbeddedResource Include="Achieve\human2.PNG" />
+    <EmbeddedResource Include="Achieve\ice1.PNG" />
+    <EmbeddedResource Include="Achieve\ice2.PNG" />
+    <EmbeddedResource Include="Achieve\insect1.PNG" />
+    <EmbeddedResource Include="Achieve\insect2.PNG" />
+    <EmbeddedResource Include="Achieve\item1.PNG" />
+    <EmbeddedResource Include="Achieve\item2.PNG" />
+    <EmbeddedResource Include="Achieve\kill1.PNG" />
+    <EmbeddedResource Include="Achieve\kill2.PNG" />
+    <EmbeddedResource Include="Achieve\lamp1.PNG" />
+    <EmbeddedResource Include="Achieve\lamp2.PNG" />
+    <EmbeddedResource Include="Achieve\light1.PNG" />
+    <EmbeddedResource Include="Achieve\light2.PNG" />
+    <EmbeddedResource Include="Achieve\lumber1.PNG" />
+    <EmbeddedResource Include="Achieve\lumber2.PNG" />
+    <EmbeddedResource Include="Achieve\lv11.PNG" />
+    <EmbeddedResource Include="Achieve\lv12.PNG" />
+    <EmbeddedResource Include="Achieve\lv21.PNG" />
+    <EmbeddedResource Include="Achieve\lv22.PNG" />
+    <EmbeddedResource Include="Achieve\lv31.PNG" />
+    <EmbeddedResource Include="Achieve\lv32.PNG" />
+    <EmbeddedResource Include="Achieve\lv41.PNG" />
+    <EmbeddedResource Include="Achieve\lv42.PNG" />
+    <EmbeddedResource Include="Achieve\lv51.PNG" />
+    <EmbeddedResource Include="Achieve\lv52.PNG" />
+    <EmbeddedResource Include="Achieve\lv61.PNG" />
+    <EmbeddedResource Include="Achieve\lv62.PNG" />
+    <EmbeddedResource Include="Achieve\lv71.PNG" />
+    <EmbeddedResource Include="Achieve\lv72.PNG" />
+    <EmbeddedResource Include="Achieve\lv81.PNG" />
+    <EmbeddedResource Include="Achieve\lv82.PNG" />
+    <EmbeddedResource Include="Achieve\machine1.PNG" />
+    <EmbeddedResource Include="Achieve\machine2.PNG" />
+    <EmbeddedResource Include="Achieve\mercury1.PNG" />
+    <EmbeddedResource Include="Achieve\mercury2.PNG" />
+    <EmbeddedResource Include="Achieve\none1.PNG" />
+    <EmbeddedResource Include="Achieve\none2.PNG" />
+    <EmbeddedResource Include="Achieve\orc1.PNG" />
+    <EmbeddedResource Include="Achieve\orc2.PNG" />
+    <EmbeddedResource Include="Achieve\ore1.PNG" />
+    <EmbeddedResource Include="Achieve\ore2.PNG" />
+    <EmbeddedResource Include="Achieve\plant1.PNG" />
+    <EmbeddedResource Include="Achieve\plant2.PNG" />
+    <EmbeddedResource Include="Achieve\ring.PNG" />
+    <EmbeddedResource Include="Achieve\rival1.PNG" />
+    <EmbeddedResource Include="Achieve\rival2.PNG" />
+    <EmbeddedResource Include="Achieve\scroll.PNG" />
+    <EmbeddedResource Include="Achieve\shield.PNG" />
+    <EmbeddedResource Include="Achieve\shield2.PNG" />
+    <EmbeddedResource Include="Achieve\snake1.PNG" />
+    <EmbeddedResource Include="Achieve\snake2.PNG" />
+    <EmbeddedResource Include="Achieve\spell1.PNG" />
+    <EmbeddedResource Include="Achieve\spell2.PNG" />
+    <EmbeddedResource Include="Achieve\spelle.PNG" />
+    <EmbeddedResource Include="Achieve\spellf.PNG" />
+    <EmbeddedResource Include="Achieve\spelln.PNG" />
+    <EmbeddedResource Include="Achieve\spells.PNG" />
+    <EmbeddedResource Include="Achieve\star.PNG" />
+    <EmbeddedResource Include="Achieve\sulfur1.PNG" />
+    <EmbeddedResource Include="Achieve\sulfur2.PNG" />
+    <EmbeddedResource Include="Achieve\summon1.PNG" />
+    <EmbeddedResource Include="Achieve\summon2.PNG" />
+    <EmbeddedResource Include="Achieve\sword.PNG" />
+    <EmbeddedResource Include="Achieve\sword2.PNG" />
+    <EmbeddedResource Include="Achieve\task1.PNG" />
+    <EmbeddedResource Include="Achieve\task2.PNG" />
+    <EmbeddedResource Include="Achieve\tree.PNG" />
+    <EmbeddedResource Include="Achieve\undie1.PNG" />
+    <EmbeddedResource Include="Achieve\undie2.PNG" />
+    <EmbeddedResource Include="Achieve\water1.PNG" />
+    <EmbeddedResource Include="Achieve\water2.PNG" />
+    <EmbeddedResource Include="Achieve\wilderness.PNG" />
+    <EmbeddedResource Include="Achieve\win1.PNG" />
+    <EmbeddedResource Include="Achieve\win2.PNG" />
+    <EmbeddedResource Include="Achieve\win3.PNG" />
+    <EmbeddedResource Include="Achieve\winc1.PNG" />
+    <EmbeddedResource Include="Achieve\winc2.PNG" />
+    <EmbeddedResource Include="Achieve\wind1.PNG" />
+    <EmbeddedResource Include="Achieve\wind2.PNG" />
+    <EmbeddedResource Include="Border\BaseB.PNG" />
+    <EmbeddedResource Include="Border\BaseBL.PNG" />
+    <EmbeddedResource Include="Border\BaseBR.PNG" />
+    <EmbeddedResource Include="Border\BaseL.PNG" />
+    <EmbeddedResource Include="Border\BaseR.PNG" />
+    <EmbeddedResource Include="Border\BaseT.PNG" />
+    <EmbeddedResource Include="Border\BaseTL.PNG" />
+    <EmbeddedResource Include="Border\BaseTR.PNG" />
+    <EmbeddedResource Include="Border\border1.PNG" />
+    <EmbeddedResource Include="Border\border2.PNG" />
+    <EmbeddedResource Include="Buff\aging.PNG" />
+    <EmbeddedResource Include="Buff\als.PNG" />
+    <EmbeddedResource Include="Buff\aurora.PNG" />
+    <EmbeddedResource Include="Buff\beer.PNG" />
+    <EmbeddedResource Include="Buff\bind.PNG" />
+    <EmbeddedResource Include="Buff\bleed.PNG" />
+    <EmbeddedResource Include="Buff\blind.PNG" />
+    <EmbeddedResource Include="Buff\burn.PNG" />
+    <EmbeddedResource Include="Buff\chili.PNG" />
+    <EmbeddedResource Include="Buff\confuse.PNG" />
+    <EmbeddedResource Include="Buff\control.PNG" />
+    <EmbeddedResource Include="Buff\crashhit.PNG" />
+    <EmbeddedResource Include="Buff\curlight.PNG" />
+    <EmbeddedResource Include="Buff\curse.PNG" />
+    <EmbeddedResource Include="Buff\dark.PNG" />
+    <EmbeddedResource Include="Buff\darkclaw.PNG" />
+    <EmbeddedResource Include="Buff\decay.PNG" />
+    <EmbeddedResource Include="Buff\defence.PNG" />
+    <EmbeddedResource Include="Buff\demon.PNG" />
+    <EmbeddedResource Include="Buff\dim.PNG" />
+    <EmbeddedResource Include="Buff\dragon.PNG" />
+    <EmbeddedResource Include="Buff\earthsword.PNG" />
+    <EmbeddedResource Include="Buff\fear.PNG" />
+    <EmbeddedResource Include="Buff\firesword.PNG" />
+    <EmbeddedResource Include="Buff\forgot.PNG" />
+    <EmbeddedResource Include="Buff\frost.PNG" />
+    <EmbeddedResource Include="Buff\gather.PNG" />
+    <EmbeddedResource Include="Buff\huge.PNG" />
+    <EmbeddedResource Include="Buff\icesinker.PNG" />
+    <EmbeddedResource Include="Buff\infect.PNG" />
+    <EmbeddedResource Include="Buff\justmark.PNG" />
+    <EmbeddedResource Include="Buff\leader.PNG" />
+    <EmbeddedResource Include="Buff\learned.PNG" />
+    <EmbeddedResource Include="Buff\lightsword.PNG" />
+    <EmbeddedResource Include="Buff\longly.PNG" />
+    <EmbeddedResource Include="Buff\lord.PNG" />
+    <EmbeddedResource Include="Buff\magicmark.PNG" />
+    <EmbeddedResource Include="Buff\manamark.PNG" />
+    <EmbeddedResource Include="Buff\matthew.PNG" />
+    <EmbeddedResource Include="Buff\mouseking.PNG" />
+    <EmbeddedResource Include="Buff\music.PNG" />
+    <EmbeddedResource Include="Buff\poison.PNG" />
+    <EmbeddedResource Include="Buff\pray.PNG" />
+    <EmbeddedResource Include="Buff\protect.PNG" />
+    <EmbeddedResource Include="Buff\rider.PNG" />
+    <EmbeddedResource Include="Buff\saintfrost.PNG" />
+    <EmbeddedResource Include="Buff\saintmark.PNG" />
+    <EmbeddedResource Include="Buff\secret.PNG" />
+    <EmbeddedResource Include="Buff\shooter.PNG" />
+    <EmbeddedResource Include="Buff\silent.PNG" />
+    <EmbeddedResource Include="Buff\siphon.PNG" />
+    <EmbeddedResource Include="Buff\sleep.PNG" />
+    <EmbeddedResource Include="Buff\snow.PNG" />
+    <EmbeddedResource Include="Buff\soulsteal.PNG" />
+    <EmbeddedResource Include="Buff\speeddown.PNG" />
+    <EmbeddedResource Include="Buff\speedup.PNG" />
+    <EmbeddedResource Include="Buff\stay.PNG" />
+    <EmbeddedResource Include="Buff\stick.PNG" />
+    <EmbeddedResource Include="Buff\stone.PNG" />
+    <EmbeddedResource Include="Buff\stop.PNG" />
+    <EmbeddedResource Include="Buff\stun.PNG" />
+    <EmbeddedResource Include="Buff\sunlight.PNG" />
+    <EmbeddedResource Include="Buff\thundersword.PNG" />
+    <EmbeddedResource Include="Buff\tile.PNG" />
+    <EmbeddedResource Include="Buff\tranfix.PNG" />
+    <EmbeddedResource Include="Buff\twilight.PNG" />
+    <EmbeddedResource Include="Buff\waterprotect.PNG" />
+    <EmbeddedResource Include="Buff\watersword.PNG" />
+    <EmbeddedResource Include="Buff\weak.PNG" />
+    <EmbeddedResource Include="Buff\wind.PNG" />
+    <EmbeddedResource Include="Buff\windaxe.PNG" />
+    <EmbeddedResource Include="Button\AttackButton.JPG" />
+    <EmbeddedResource Include="Button\AttackButtonOn.JPG" />
+    <EmbeddedResource Include="Button\BuyButton.JPG" />
+    <EmbeddedResource Include="Button\BuyButtonOn.JPG" />
+    <EmbeddedResource Include="Button\BuyIcon.PNG" />
+    <EmbeddedResource Include="Button\BuyIconOn.PNG" />
+    <EmbeddedResource Include="Button\DropButton.JPG" />
+    <EmbeddedResource Include="Button\DropButtonOn.JPG" />
+    <EmbeddedResource Include="Button\FishButton.JPG" />
+    <EmbeddedResource Include="Button\FishButtonOn.JPG" />
+    <EmbeddedResource Include="Button\MainIcon1.PNG" />
+    <EmbeddedResource Include="Button\MainIcon2.PNG" />
+    <EmbeddedResource Include="Button\MainIcon2On.PNG" />
+    <EmbeddedResource Include="Button\MainIcon4.PNG" />
+    <EmbeddedResource Include="Button\MainIcon4On.PNG" />
+    <EmbeddedResource Include="Button\MainIcon5.PNG" />
+    <EmbeddedResource Include="Button\MainIcon5On.PNG" />
+    <EmbeddedResource Include="Button\MainIcon7.PNG" />
+    <EmbeddedResource Include="Button\MainIcon7On.PNG" />
+    <EmbeddedResource Include="Button\MainIcon8.PNG" />
+    <EmbeddedResource Include="Button\MainIcon8On.PNG" />
+    <EmbeddedResource Include="Button\MainIcon9.PNG" />
+    <EmbeddedResource Include="Button\MainIcon9On.PNG" />
+    <EmbeddedResource Include="Button\MapButton1.PNG" />
+    <EmbeddedResource Include="Button\MapButton1On.PNG" />
+    <EmbeddedResource Include="Button\MapButton2.PNG" />
+    <EmbeddedResource Include="Button\MapButton2On.PNG" />
+    <EmbeddedResource Include="Button\PickButton.JPG" />
+    <EmbeddedResource Include="Button\PickButtonOn.JPG" />
+    <EmbeddedResource Include="Button\PlamButton.JPG" />
+    <EmbeddedResource Include="Button\PlamButtonOn.JPG" />
+    <EmbeddedResource Include="Button\SideButton1.PNG" />
+    <EmbeddedResource Include="Button\SideButton1On.PNG" />
+    <EmbeddedResource Include="Button\SideButton2.PNG" />
+    <EmbeddedResource Include="Button\SideButton2On.PNG" />
+    <EmbeddedResource Include="Button\SideButton3.PNG" />
+    <EmbeddedResource Include="Button\SideButton3On.PNG" />
+    <EmbeddedResource Include="Cursor\cast.PNG" />
+    <EmbeddedResource Include="Cursor\default.PNG" />
+    <EmbeddedResource Include="Cursor\equip.PNG" />
+    <EmbeddedResource Include="Cursor\nocast.PNG" />
+    <EmbeddedResource Include="Cursor\noequip.PNG" />
+    <EmbeddedResource Include="Cursor\nosummon.PNG" />
+    <EmbeddedResource Include="Cursor\summon.PNG" />
+    <EmbeddedResource Include="Effect\0.PNG" />
+    <EmbeddedResource Include="Effect\1.PNG" />
+    <EmbeddedResource Include="Effect\10.PNG" />
+    <EmbeddedResource Include="Effect\100.PNG" />
+    <EmbeddedResource Include="Effect\101.PNG" />
+    <EmbeddedResource Include="Effect\102.PNG" />
+    <EmbeddedResource Include="Effect\103.PNG" />
+    <EmbeddedResource Include="Effect\104.PNG" />
+    <EmbeddedResource Include="Effect\105.PNG" />
+    <EmbeddedResource Include="Effect\106.PNG" />
+    <EmbeddedResource Include="Effect\108.PNG" />
+    <EmbeddedResource Include="Effect\109.PNG" />
+    <EmbeddedResource Include="Effect\11.PNG" />
+    <EmbeddedResource Include="Effect\110.PNG" />
+    <EmbeddedResource Include="Effect\111.PNG" />
+    <EmbeddedResource Include="Effect\112.PNG" />
+    <EmbeddedResource Include="Effect\113.PNG" />
+    <EmbeddedResource Include="Effect\114.PNG" />
+    <EmbeddedResource Include="Effect\115.PNG" />
+    <EmbeddedResource Include="Effect\116.PNG" />
+    <EmbeddedResource Include="Effect\117.PNG" />
+    <EmbeddedResource Include="Effect\118.PNG" />
+    <EmbeddedResource Include="Effect\119.PNG" />
+    <EmbeddedResource Include="Effect\12.PNG" />
+    <EmbeddedResource Include="Effect\120.PNG" />
+    <EmbeddedResource Include="Effect\126.PNG" />
+    <EmbeddedResource Include="Effect\127.PNG" />
+    <EmbeddedResource Include="Effect\128.PNG" />
+    <EmbeddedResource Include="Effect\129.PNG" />
+    <EmbeddedResource Include="Effect\13.PNG" />
+    <EmbeddedResource Include="Effect\130.PNG" />
+    <EmbeddedResource Include="Effect\131.PNG" />
+    <EmbeddedResource Include="Effect\133.PNG" />
+    <EmbeddedResource Include="Effect\134.PNG" />
+    <EmbeddedResource Include="Effect\135.PNG" />
+    <EmbeddedResource Include="Effect\136.PNG" />
+    <EmbeddedResource Include="Effect\137.PNG" />
+    <EmbeddedResource Include="Effect\139.PNG" />
+    <EmbeddedResource Include="Effect\14.PNG" />
+    <EmbeddedResource Include="Effect\140.PNG" />
+    <EmbeddedResource Include="Effect\141.PNG" />
+    <EmbeddedResource Include="Effect\142.PNG" />
+    <EmbeddedResource Include="Effect\143.PNG" />
+    <EmbeddedResource Include="Effect\144.PNG" />
+    <EmbeddedResource Include="Effect\145.PNG" />
+    <EmbeddedResource Include="Effect\146.PNG" />
+    <EmbeddedResource Include="Effect\147.PNG" />
+    <EmbeddedResource Include="Effect\148.PNG" />
+    <EmbeddedResource Include="Effect\149.PNG" />
+    <EmbeddedResource Include="Effect\15.PNG" />
+    <EmbeddedResource Include="Effect\150.PNG" />
+    <EmbeddedResource Include="Effect\151.PNG" />
+    <EmbeddedResource Include="Effect\152.PNG" />
+    <EmbeddedResource Include="Effect\154.PNG" />
+    <EmbeddedResource Include="Effect\155.PNG" />
+    <EmbeddedResource Include="Effect\156.PNG" />
+    <EmbeddedResource Include="Effect\157.PNG" />
+    <EmbeddedResource Include="Effect\158.PNG" />
+    <EmbeddedResource Include="Effect\159.PNG" />
+    <EmbeddedResource Include="Effect\160.PNG" />
+    <EmbeddedResource Include="Effect\161.PNG" />
+    <EmbeddedResource Include="Effect\162.PNG" />
+    <EmbeddedResource Include="Effect\163.PNG" />
+    <EmbeddedResource Include="Effect\164.PNG" />
+    <EmbeddedResource Include="Effect\165.PNG" />
+    <EmbeddedResource Include="Effect\166.PNG" />
+    <EmbeddedResource Include="Effect\169.PNG" />
+    <EmbeddedResource Include="Effect\170.PNG" />
+    <EmbeddedResource Include="Effect\19.PNG" />
+    <EmbeddedResource Include="Effect\2.PNG" />
+    <EmbeddedResource Include="Effect\20.PNG" />
+    <EmbeddedResource Include="Effect\21.PNG" />
+    <EmbeddedResource Include="Effect\22.PNG" />
+    <EmbeddedResource Include="Effect\23.PNG" />
+    <EmbeddedResource Include="Effect\24.PNG" />
+    <EmbeddedResource Include="Effect\25.PNG" />
+    <EmbeddedResource Include="Effect\26.PNG" />
+    <EmbeddedResource Include="Effect\27.PNG" />
+    <EmbeddedResource Include="Effect\28.PNG" />
+    <EmbeddedResource Include="Effect\29.PNG" />
+    <EmbeddedResource Include="Effect\3.PNG" />
+    <EmbeddedResource Include="Effect\30.PNG" />
+    <EmbeddedResource Include="Effect\31.PNG" />
+    <EmbeddedResource Include="Effect\32.PNG" />
+    <EmbeddedResource Include="Effect\33.PNG" />
+    <EmbeddedResource Include="Effect\34.PNG" />
+    <EmbeddedResource Include="Effect\35.PNG" />
+    <EmbeddedResource Include="Effect\36.PNG" />
+    <EmbeddedResource Include="Effect\37.PNG" />
+    <EmbeddedResource Include="Effect\38.PNG" />
+    <EmbeddedResource Include="Effect\39.PNG" />
+    <EmbeddedResource Include="Effect\4.PNG" />
+    <EmbeddedResource Include="Effect\40.PNG" />
+    <EmbeddedResource Include="Effect\41.PNG" />
+    <EmbeddedResource Include="Effect\42.PNG" />
+    <EmbeddedResource Include="Effect\43.PNG" />
+    <EmbeddedResource Include="Effect\44.PNG" />
+    <EmbeddedResource Include="Effect\45.PNG" />
+    <EmbeddedResource Include="Effect\46.PNG" />
+    <EmbeddedResource Include="Effect\47.PNG" />
+    <EmbeddedResource Include="Effect\48.PNG" />
+    <EmbeddedResource Include="Effect\49.PNG" />
+    <EmbeddedResource Include="Effect\5.PNG" />
+    <EmbeddedResource Include="Effect\50.PNG" />
+    <EmbeddedResource Include="Effect\51.PNG" />
+    <EmbeddedResource Include="Effect\52.PNG" />
+    <EmbeddedResource Include="Effect\53.PNG" />
+    <EmbeddedResource Include="Effect\54.PNG" />
+    <EmbeddedResource Include="Effect\55.PNG" />
+    <EmbeddedResource Include="Effect\56.PNG" />
+    <EmbeddedResource Include="Effect\57.PNG" />
+    <EmbeddedResource Include="Effect\58.PNG" />
+    <EmbeddedResource Include="Effect\6.PNG" />
+    <EmbeddedResource Include="Effect\62.PNG" />
+    <EmbeddedResource Include="Effect\63.PNG" />
+    <EmbeddedResource Include="Effect\64.PNG" />
+    <EmbeddedResource Include="Effect\65.PNG" />
+    <EmbeddedResource Include="Effect\66.PNG" />
+    <EmbeddedResource Include="Effect\67.PNG" />
+    <EmbeddedResource Include="Effect\68.PNG" />
+    <EmbeddedResource Include="Effect\69.PNG" />
+    <EmbeddedResource Include="Effect\7.PNG" />
+    <EmbeddedResource Include="Effect\70.PNG" />
+    <EmbeddedResource Include="Effect\71.PNG" />
+    <EmbeddedResource Include="Effect\72.PNG" />
+    <EmbeddedResource Include="Effect\73.PNG" />
+    <EmbeddedResource Include="Effect\74.PNG" />
+    <EmbeddedResource Include="Effect\75.PNG" />
+    <EmbeddedResource Include="Effect\76.PNG" />
+    <EmbeddedResource Include="Effect\77.PNG" />
+    <EmbeddedResource Include="Effect\78.PNG" />
+    <EmbeddedResource Include="Effect\79.PNG" />
+    <EmbeddedResource Include="Effect\8.PNG" />
+    <EmbeddedResource Include="Effect\80.PNG" />
+    <EmbeddedResource Include="Effect\81.PNG" />
+    <EmbeddedResource Include="Effect\82.PNG" />
+    <EmbeddedResource Include="Effect\84.PNG" />
+    <EmbeddedResource Include="Effect\86.PNG" />
+    <EmbeddedResource Include="Effect\87.PNG" />
+    <EmbeddedResource Include="Effect\88.PNG" />
+    <EmbeddedResource Include="Effect\89.PNG" />
+    <EmbeddedResource Include="Effect\9.PNG" />
+    <EmbeddedResource Include="Effect\90.PNG" />
+    <EmbeddedResource Include="Effect\91.PNG" />
+    <EmbeddedResource Include="Effect\92.PNG" />
+    <EmbeddedResource Include="Effect\93.PNG" />
+    <EmbeddedResource Include="Effect\94.PNG" />
+    <EmbeddedResource Include="Effect\95.PNG" />
+    <EmbeddedResource Include="Effect\96.PNG" />
+    <EmbeddedResource Include="Effect\97.PNG" />
+    <EmbeddedResource Include="Effect\98.PNG" />
+    <EmbeddedResource Include="Effect\99.PNG" />
+    <EmbeddedResource Include="Equip\hudun01.JPG" />
+    <EmbeddedResource Include="Equip\hudun02.JPG" />
+    <EmbeddedResource Include="Equip\hudun03.JPG" />
+    <EmbeddedResource Include="Equip\hudun04.JPG" />
+    <EmbeddedResource Include="Equip\hudun05.JPG" />
+    <EmbeddedResource Include="Equip\hudun06.JPG" />
+    <EmbeddedResource Include="Equip\hudun07.JPG" />
+    <EmbeddedResource Include="Equip\hudun08.JPG" />
+    <EmbeddedResource Include="Equip\hudun09.JPG" />
+    <EmbeddedResource Include="Equip\hudun10.JPG" />
+    <EmbeddedResource Include="Equip\hudun11.JPG" />
+    <EmbeddedResource Include="Equip\hudun12.JPG" />
+    <EmbeddedResource Include="Equip\hudun13.JPG" />
+    <EmbeddedResource Include="Equip\hudun14.JPG" />
+    <EmbeddedResource Include="Equip\hudun15.JPG" />
+    <EmbeddedResource Include="Equip\hudun16.JPG" />
+    <EmbeddedResource Include="Equip\hudun17.JPG" />
+    <EmbeddedResource Include="Equip\hudun18.JPG" />
+    <EmbeddedResource Include="Equip\hudun19.JPG" />
+    <EmbeddedResource Include="Equip\hudun20.JPG" />
+    <EmbeddedResource Include="Equip\hudun21.JPG" />
+    <EmbeddedResource Include="Equip\hudun22.JPG" />
+    <EmbeddedResource Include="Equip\hudun23.JPG" />
+    <EmbeddedResource Include="Equip\hudun24.JPG" />
+    <EmbeddedResource Include="Equip\hudun25.JPG" />
+    <EmbeddedResource Include="Equip\hujia01.JPG" />
+    <EmbeddedResource Include="Equip\hujia02.JPG" />
+    <EmbeddedResource Include="Equip\hujia03.JPG" />
+    <EmbeddedResource Include="Equip\hujia04.JPG" />
+    <EmbeddedResource Include="Equip\hujia05.JPG" />
+    <EmbeddedResource Include="Equip\hujia06.JPG" />
+    <EmbeddedResource Include="Equip\hujia07.JPG" />
+    <EmbeddedResource Include="Equip\hujia08.JPG" />
+    <EmbeddedResource Include="Equip\hujia09.JPG" />
+    <EmbeddedResource Include="Equip\hujia10.JPG" />
+    <EmbeddedResource Include="Equip\hujia11.JPG" />
+    <EmbeddedResource Include="Equip\hujia12.JPG" />
+    <EmbeddedResource Include="Equip\hujia13.JPG" />
+    <EmbeddedResource Include="Equip\hujia14.JPG" />
+    <EmbeddedResource Include="Equip\hujia15.JPG" />
+    <EmbeddedResource Include="Equip\hujia16.JPG" />
+    <EmbeddedResource Include="Equip\hujia17.JPG" />
+    <EmbeddedResource Include="Equip\hujia18.JPG" />
+    <EmbeddedResource Include="Equip\hujia19.JPG" />
+    <EmbeddedResource Include="Equip\hujia20.JPG" />
+    <EmbeddedResource Include="Equip\hujia21.JPG" />
+    <EmbeddedResource Include="Equip\hujia22.JPG" />
+    <EmbeddedResource Include="Equip\hujia23.JPG" />
+    <EmbeddedResource Include="Equip\hujia24.JPG" />
+    <EmbeddedResource Include="Equip\hujia25.JPG" />
+    <EmbeddedResource Include="Equip\hujia26.JPG" />
+    <EmbeddedResource Include="Equip\hujia27.JPG" />
+    <EmbeddedResource Include="Equip\jiezhi01.JPG" />
+    <EmbeddedResource Include="Equip\jiezhi02.JPG" />
+    <EmbeddedResource Include="Equip\jiezhi03.JPG" />
+    <EmbeddedResource Include="Equip\jiezhi04.JPG" />
+    <EmbeddedResource Include="Equip\jiezhi05.JPG" />
+    <EmbeddedResource Include="Equip\jiezhi06.JPG" />
+    <EmbeddedResource Include="Equip\jiezhi07.JPG" />
+    <EmbeddedResource Include="Equip\jiezhi08.JPG" />
+    <EmbeddedResource Include="Equip\jiezhi09.JPG" />
+    <EmbeddedResource Include="Equip\toukui01.JPG" />
+    <EmbeddedResource Include="Equip\toukui02.JPG" />
+    <EmbeddedResource Include="Equip\toukui03.JPG" />
+    <EmbeddedResource Include="Equip\toukui04.JPG" />
+    <EmbeddedResource Include="Equip\toukui05.JPG" />
+    <EmbeddedResource Include="Equip\toukui06.JPG" />
+    <EmbeddedResource Include="Equip\toukui07.JPG" />
+    <EmbeddedResource Include="Equip\toukui08.JPG" />
+    <EmbeddedResource Include="Equip\toukui09.JPG" />
+    <EmbeddedResource Include="Equip\toukui10.JPG" />
+    <EmbeddedResource Include="Equip\toukui11.JPG" />
+    <EmbeddedResource Include="Equip\toukui12.JPG" />
+    <EmbeddedResource Include="Equip\toukui13.JPG" />
+    <EmbeddedResource Include="Equip\toukui14.JPG" />
+    <EmbeddedResource Include="Equip\toukui15.JPG" />
+    <EmbeddedResource Include="Equip\toukui16.JPG" />
+    <EmbeddedResource Include="Equip\toukui17.JPG" />
+    <EmbeddedResource Include="Equip\toukui18.JPG" />
+    <EmbeddedResource Include="Equip\toukui19.JPG" />
+    <EmbeddedResource Include="Equip\toukui20.JPG" />
+    <EmbeddedResource Include="Equip\toukui21.JPG" />
+    <EmbeddedResource Include="Equip\toukui22.JPG" />
+    <EmbeddedResource Include="Equip\toukui23.JPG" />
+    <EmbeddedResource Include="Equip\toukui24.JPG" />
+    <EmbeddedResource Include="Equip\toukui25.JPG" />
+    <EmbeddedResource Include="Equip\toukui26.JPG" />
+    <EmbeddedResource Include="Equip\toukui27.JPG" />
+    <EmbeddedResource Include="Equip\wuqi01.JPG" />
+    <EmbeddedResource Include="Equip\wuqi02.JPG" />
+    <EmbeddedResource Include="Equip\wuqi03.JPG" />
+    <EmbeddedResource Include="Equip\wuqi04.JPG" />
+    <EmbeddedResource Include="Equip\wuqi05.JPG" />
+    <EmbeddedResource Include="Equip\wuqi06.JPG" />
+    <EmbeddedResource Include="Equip\wuqi07.JPG" />
+    <EmbeddedResource Include="Equip\wuqi08.JPG" />
+    <EmbeddedResource Include="Equip\wuqi09.JPG" />
+    <EmbeddedResource Include="Equip\wuqi10.JPG" />
+    <EmbeddedResource Include="Equip\wuqi11.JPG" />
+    <EmbeddedResource Include="Equip\wuqi12.JPG" />
+    <EmbeddedResource Include="Equip\wuqi13.JPG" />
+    <EmbeddedResource Include="Equip\wuqi14.JPG" />
+    <EmbeddedResource Include="Equip\wuqi15.JPG" />
+    <EmbeddedResource Include="Equip\wuqi16.JPG" />
+    <EmbeddedResource Include="Equip\wuqi17.JPG" />
+    <EmbeddedResource Include="Equip\wuqi18.JPG" />
+    <EmbeddedResource Include="Equip\wuqi19.JPG" />
+    <EmbeddedResource Include="Equip\wuqi20.JPG" />
+    <EmbeddedResource Include="Equip\wuqi21.JPG" />
+    <EmbeddedResource Include="Equip\wuqi22.JPG" />
+    <EmbeddedResource Include="Equip\wuqi23.JPG" />
+    <EmbeddedResource Include="Equip\wuqi24.JPG" />
+    <EmbeddedResource Include="Equip\wuqi25.JPG" />
+    <EmbeddedResource Include="Equip\wuqi26.JPG" />
+    <EmbeddedResource Include="Equip\wuqi27.JPG" />
+    <EmbeddedResource Include="Equip\xianglian01.JPG" />
+    <EmbeddedResource Include="Equip\xianglian02.JPG" />
+    <EmbeddedResource Include="Equip\xianglian03.JPG" />
+    <EmbeddedResource Include="Equip\xianglian04.JPG" />
+    <EmbeddedResource Include="Equip\xianglian05.JPG" />
+    <EmbeddedResource Include="Equip\xianglian06.JPG" />
+    <EmbeddedResource Include="Equip\xianglian07.JPG" />
+    <EmbeddedResource Include="Equip\xianglian08.JPG" />
+    <EmbeddedResource Include="Equip\xianglian09.JPG" />
+    <EmbeddedResource Include="Equip\xianglian10.JPG" />
+    <EmbeddedResource Include="Equip\xiezi01.JPG" />
+    <EmbeddedResource Include="Equip\xiezi02.JPG" />
+    <EmbeddedResource Include="Equip\xiezi03.JPG" />
+    <EmbeddedResource Include="Equip\xiezi04.JPG" />
+    <EmbeddedResource Include="Equip\xiezi05.JPG" />
+    <EmbeddedResource Include="Equip\xiezi06.JPG" />
+    <EmbeddedResource Include="Equip\xiezi07.JPG" />
+    <EmbeddedResource Include="Equip\xiezi08.JPG" />
+    <EmbeddedResource Include="Equip\xiezi09.JPG" />
+    <EmbeddedResource Include="Equip\xiezi10.JPG" />
+    <EmbeddedResource Include="Equip\xiezi11.JPG" />
+    <EmbeddedResource Include="Equip\xiezi12.JPG" />
+    <EmbeddedResource Include="Equip\xiezi13.JPG" />
+    <EmbeddedResource Include="Equip\xiezi14.JPG" />
+    <EmbeddedResource Include="Equip\xiezi15.JPG" />
+    <EmbeddedResource Include="Equip\xiezi16.JPG" />
+    <EmbeddedResource Include="Equip\xiezi17.JPG" />
+    <EmbeddedResource Include="Equip\xiezi18.JPG" />
+    <EmbeddedResource Include="Equip\xiezi19.JPG" />
+    <EmbeddedResource Include="Equip\xiezi20.JPG" />
+    <EmbeddedResource Include="Equip\xiezi21.JPG" />
+    <EmbeddedResource Include="Equip\xiezi22.JPG" />
+    <EmbeddedResource Include="Equip\xiezi23.JPG" />
+    <EmbeddedResource Include="Equip\xiezi24.JPG" />
+    <EmbeddedResource Include="Equip\xiezi25.JPG" />
+    <EmbeddedResource Include="Headline\style1blue.PNG" />
+    <EmbeddedResource Include="Headline\style1red.PNG" />
+    <EmbeddedResource Include="Headline\style1yellow.PNG" />
+    <EmbeddedResource Include="Item\aisiter.JPG" />
+    <EmbeddedResource Include="Item\anshuijing.JPG" />
+    <EmbeddedResource Include="Item\anubisi.JPG" />
+    <EmbeddedResource Include="Item\anzhihuan.JPG" />
+    <EmbeddedResource Include="Item\anzhijiao.JPG" />
+    <EmbeddedResource Include="Item\aolai.JPG" />
+    <EmbeddedResource Include="Item\artrom.JPG" />
+    <EmbeddedResource Include="Item\baibuliao.JPG" />
+    <EmbeddedResource Include="Item\baishoupi.JPG" />
+    <EmbeddedResource Include="Item\baixiongpi.JPG" />
+    <EmbeddedResource Include="Item\baiyumao.JPG" />
+    <EmbeddedResource Include="Item\baizhi.JPG" />
+    <EmbeddedResource Include="Item\baludi.JPG" />
+    <EmbeddedResource Include="Item\baotou.JPG" />
+    <EmbeddedResource Include="Item\beilukai.JPG" />
+    <EmbeddedResource Include="Item\bengdai.JPG" />
+    <EmbeddedResource Include="Item\bianfuchi.JPG" />
+    <EmbeddedResource Include="Item\bianselin.JPG" />
+    <EmbeddedResource Include="Item\bingjiejing.JPG" />
+    <EmbeddedResource Include="Item\bingjing.JPG" />
+    <EmbeddedResource Include="Item\bingyuan.JPG" />
+    <EmbeddedResource Include="Item\caishuijing.JPG" />
+    <EmbeddedResource Include="Item\cansi.JPG" />
+    <EmbeddedResource Include="Item\cheng.JPG" />
+    <EmbeddedResource Include="Item\chengtu.JPG" />
+    <EmbeddedResource Include="Item\chilun2.JPG" />
+    <EmbeddedResource Include="Item\chongzu.JPG" />
+    <EmbeddedResource Include="Item\chuanshouxiang.JPG" />
+    <EmbeddedResource Include="Item\chunbaijinshu.JPG" />
+    <EmbeddedResource Include="Item\dadijiejing.JPG" />
+    <EmbeddedResource Include="Item\damukuai.JPG" />
+    <EmbeddedResource Include="Item\dayachi.JPG" />
+    <EmbeddedResource Include="Item\dianguang.JPG" />
+    <EmbeddedResource Include="Item\dianliu.JPG" />
+    <EmbeddedResource Include="Item\diedacao.JPG" />
+    <EmbeddedResource Include="Item\digencao.JPG" />
+    <EmbeddedResource Include="Item\dizi.JPG" />
+    <EmbeddedResource Include="Item\dongwushu.JPG" />
+    <EmbeddedResource Include="Item\dragon.JPG" />
+    <EmbeddedResource Include="Item\duci.JPG" />
+    <EmbeddedResource Include="Item\dundao.JPG" />
+    <EmbeddedResource Include="Item\dushou.JPG" />
+    <EmbeddedResource Include="Item\egu.JPG" />
+    <EmbeddedResource Include="Item\emowang.JPG" />
+    <EmbeddedResource Include="Item\feibiao.JPG" />
+    <EmbeddedResource Include="Item\fengmoshi.JPG" />
+    <EmbeddedResource Include="Item\gailu.JPG" />
+    <EmbeddedResource Include="Item\guangshuijing.JPG" />
+    <EmbeddedResource Include="Item\guangzhihuan.JPG" />
+    <EmbeddedResource Include="Item\guangzhijiao.JPG" />
+    <EmbeddedResource Include="Item\guihuo.JPG" />
+    <EmbeddedResource Include="Item\guike.JPG" />
+    <EmbeddedResource Include="Item\guiyu.JPG" />
+    <EmbeddedResource Include="Item\haidaoyanzhao.JPG" />
+    <EmbeddedResource Include="Item\haima.JPG" />
+    <EmbeddedResource Include="Item\heiqi.JPG" />
+    <EmbeddedResource Include="Item\heisebuliao.JPG" />
+    <EmbeddedResource Include="Item\hongbaoshi.JPG" />
+    <EmbeddedResource Include="Item\hongbaoshi2.JPG" />
+    <EmbeddedResource Include="Item\hongchushou.JPG" />
+    <EmbeddedResource Include="Item\hongdoupeng.JPG" />
+    <EmbeddedResource Include="Item\hongfenmo.JPG" />
+    <EmbeddedResource Include="Item\honglianshi.JPG" />
+    <EmbeddedResource Include="Item\honglonglin.JPG" />
+    <EmbeddedResource Include="Item\hongmati.JPG" />
+    <EmbeddedResource Include="Item\hongsebuliao.JPG" />
+    <EmbeddedResource Include="Item\hongseyaoshui.JPG" />
+    <EmbeddedResource Include="Item\hongseyaoshuida.JPG" />
+    <EmbeddedResource Include="Item\hongseyaoshuizhong.JPG" />
+    <EmbeddedResource Include="Item\hongshu.JPG" />
+    <EmbeddedResource Include="Item\hongshuidai.JPG" />
+    <EmbeddedResource Include="Item\hongtoukui.JPG" />
+    <EmbeddedResource Include="Item\hongyeti.JPG" />
+    <EmbeddedResource Include="Item\huangbaoshi.JPG" />
+    <EmbeddedResource Include="Item\huangjiao.JPG" />
+    <EmbeddedResource Include="Item\huangmoshui.JPG" />
+    <EmbeddedResource Include="Item\huangsebuliao.JPG" />
+    <EmbeddedResource Include="Item\huangtoushi.JPG" />
+    <EmbeddedResource Include="Item\huangweiyu.JPG" />
+    <EmbeddedResource Include="Item\huilangpi.JPG" />
+    <EmbeddedResource Include="Item\huipifeng.JPG" />
+    <EmbeddedResource Include="Item\huishu.JPG" />
+    <EmbeddedResource Include="Item\huizhang.JPG" />
+    <EmbeddedResource Include="Item\hulu.JPG" />
+    <EmbeddedResource Include="Item\huluobo.JPG" />
+    <EmbeddedResource Include="Item\hupo.JPG" />
+    <EmbeddedResource Include="Item\jiakechong.JPG" />
+    <EmbeddedResource Include="Item\jian.JPG" />
+    <EmbeddedResource Include="Item\jianguhui.JPG" />
+    <EmbeddedResource Include="Item\jiashu.JPG" />
+    <EmbeddedResource Include="Item\jingjizao.JPG" />
+    <EmbeddedResource Include="Item\jinguan.JPG" />
+    <EmbeddedResource Include="Item\jingubang.JPG" />
+    <EmbeddedResource Include="Item\jinjiake.JPG" />
+    <EmbeddedResource Include="Item\jinlonglin.JPG" />
+    <EmbeddedResource Include="Item\jinseqianbi.JPG" />
+    <EmbeddedResource Include="Item\jinseshidai.JPG" />
+    <EmbeddedResource Include="Item\jinyezi.JPG" />
+    <EmbeddedResource Include="Item\jinyumao.JPG" />
+    <EmbeddedResource Include="Item\jiulong1.JPG" />
+    <EmbeddedResource Include="Item\jiulong2.JPG" />
+    <EmbeddedResource Include="Item\jiulong3.JPG" />
+    <EmbeddedResource Include="Item\jiulong4.JPG" />
+    <EmbeddedResource Include="Item\jiulong5.JPG" />
+    <EmbeddedResource Include="Item\jiulong6.JPG" />
+    <EmbeddedResource Include="Item\jiulong7.JPG" />
+    <EmbeddedResource Include="Item\jiulong8.JPG" />
+    <EmbeddedResource Include="Item\jiulong9.JPG" />
+    <EmbeddedResource Include="Item\jiutong.JPG" />
+    <EmbeddedResource Include="Item\jixieyuyi.JPG" />
+    <EmbeddedResource Include="Item\jizhua.JPG" />
+    <EmbeddedResource Include="Item\kabaohong.JPG" />
+    <EmbeddedResource Include="Item\kabaohuang.JPG" />
+    <EmbeddedResource Include="Item\kabaolan.JPG" />
+    <EmbeddedResource Include="Item\kafu.JPG" />
+    <EmbeddedResource Include="Item\kahuo.JPG" />
+    <EmbeddedResource Include="Item\kashou.JPG" />
+    <EmbeddedResource Include="Item\kedi.JPG" />
+    <EmbeddedResource Include="Item\kongpin.JPG" />
+    <EmbeddedResource Include="Item\kuijiapian.JPG" />
+    <EmbeddedResource Include="Item\kulouzhanghui.JPG" />
+    <EmbeddedResource Include="Item\kunchongchi.JPG" />
+    <EmbeddedResource Include="Item\lakar.JPG" />
+    <EmbeddedResource Include="Item\lanbaoshi.JPG" />
+    <EmbeddedResource Include="Item\lanmati.JPG" />
+    <EmbeddedResource Include="Item\lanmianju.JPG" />
+    <EmbeddedResource Include="Item\lansebuliao.JPG" />
+    <EmbeddedResource Include="Item\lansekoushui.JPG" />
+    <EmbeddedResource Include="Item\lanseyaoshui.JPG" />
+    <EmbeddedResource Include="Item\lanseyaoshuida.JPG" />
+    <EmbeddedResource Include="Item\lanseyaoshuizhong.JPG" />
+    <EmbeddedResource Include="Item\lanyezi.JPG" />
+    <EmbeddedResource Include="Item\lanyumao.JPG" />
+    <EmbeddedResource Include="Item\leilongpi.JPG" />
+    <EmbeddedResource Include="Item\leiluo.JPG" />
+    <EmbeddedResource Include="Item\leimoshi.JPG" />
+    <EmbeddedResource Include="Item\liangqiu.JPG" />
+    <EmbeddedResource Include="Item\liangqiu2.JPG" />
+    <EmbeddedResource Include="Item\libaohe.JPG" />
+    <EmbeddedResource Include="Item\libaohong.JPG" />
+    <EmbeddedResource Include="Item\libaohui.JPG" />
+    <EmbeddedResource Include="Item\libaolan.JPG" />
+    <EmbeddedResource Include="Item\libaolv.JPG" />
+    <EmbeddedResource Include="Item\libaoshenlan.JPG" />
+    <EmbeddedResource Include="Item\libaozi.JPG" />
+    <EmbeddedResource Include="Item\lidaihui.JPG" />
+    <EmbeddedResource Include="Item\lidailan.JPG" />
+    <EmbeddedResource Include="Item\lidailv.JPG" />
+    <EmbeddedResource Include="Item\longgu.JPG" />
+    <EmbeddedResource Include="Item\longhundun.JPG" />
+    <EmbeddedResource Include="Item\longjianxia.JPG" />
+    <EmbeddedResource Include="Item\longxia.JPG" />
+    <EmbeddedResource Include="Item\lujiao.JPG" />
+    <EmbeddedResource Include="Item\luka.JPG" />
+    <EmbeddedResource Include="Item\lumber1.JPG" />
+    <EmbeddedResource Include="Item\lumber2.JPG" />
+    <EmbeddedResource Include="Item\lumber3.JPG" />
+    <EmbeddedResource Include="Item\luosidao.JPG" />
+    <EmbeddedResource Include="Item\lvchushou.JPG" />
+    <EmbeddedResource Include="Item\lvdoupeng.JPG" />
+    <EmbeddedResource Include="Item\lvguozi.JPG" />
+    <EmbeddedResource Include="Item\lvsebuliao.JPG" />
+    <EmbeddedResource Include="Item\lvsetang.JPG" />
+    <EmbeddedResource Include="Item\lvseyaoshui.JPG" />
+    <EmbeddedResource Include="Item\lvseyaoshuida.JPG" />
+    <EmbeddedResource Include="Item\lvseyaoshuizhong.JPG" />
+    <EmbeddedResource Include="Item\lvshikuai.JPG" />
+    <EmbeddedResource Include="Item\lvyezi.JPG" />
+    <EmbeddedResource Include="Item\masha.JPG" />
+    <EmbeddedResource Include="Item\milanda.JPG" />
+    <EmbeddedResource Include="Item\mingjiao.JPG" />
+    <EmbeddedResource Include="Item\mofamao.JPG" />
+    <EmbeddedResource Include="Item\moguhong.JPG" />
+    <EmbeddedResource Include="Item\mogulan.JPG" />
+    <EmbeddedResource Include="Item\mogulv.JPG" />
+    <EmbeddedResource Include="Item\moyingji.JPG" />
+    <EmbeddedResource Include="Item\mvz.JPG" />
+    <EmbeddedResource Include="Item\nanami.JPG" />
+    <EmbeddedResource Include="Item\neifuni.JPG" />
+    <EmbeddedResource Include="Item\nianyu.JPG" />
+    <EmbeddedResource Include="Item\ningshenhua.JPG" />
+    <EmbeddedResource Include="Item\niqiu.JPG" />
+    <EmbeddedResource Include="Item\nitu.JPG" />
+    <EmbeddedResource Include="Item\niujiao.JPG" />
+    <EmbeddedResource Include="Item\node.JPG" />
+    <EmbeddedResource Include="Item\popi.JPG" />
+    <EmbeddedResource Include="Item\powderwar.JPG" />
+    <EmbeddedResource Include="Item\pvz.JPG" />
+    <EmbeddedResource Include="Item\qiangzhi.JPG" />
+    <EmbeddedResource Include="Item\qianzi.JPG" />
+    <EmbeddedResource Include="Item\qingshanshi.JPG" />
+    <EmbeddedResource Include="Item\qingyu.JPG" />
+    <EmbeddedResource Include="Item\qinlonglin.JPG" />
+    <EmbeddedResource Include="Item\rand.JPG" />
+    <EmbeddedResource Include="Item\saen.JPG" />
+    <EmbeddedResource Include="Item\saibasi.JPG" />
+    <EmbeddedResource Include="Item\sainisi.JPG" />
+    <EmbeddedResource Include="Item\scan1.JPG" />
+    <EmbeddedResource Include="Item\scan2.JPG" />
+    <EmbeddedResource Include="Item\scan3.JPG" />
+    <EmbeddedResource Include="Item\scbing1.JPG" />
+    <EmbeddedResource Include="Item\scbing2.JPG" />
+    <EmbeddedResource Include="Item\scbing3.JPG" />
+    <EmbeddedResource Include="Item\scdi1.JPG" />
+    <EmbeddedResource Include="Item\scdi2.JPG" />
+    <EmbeddedResource Include="Item\scdi3.JPG" />
+    <EmbeddedResource Include="Item\scdijing1.JPG" />
+    <EmbeddedResource Include="Item\scdijing2.JPG" />
+    <EmbeddedResource Include="Item\scdijing3.JPG" />
+    <EmbeddedResource Include="Item\scdijing4.JPG" />
+    <EmbeddedResource Include="Item\scemo1.JPG" />
+    <EmbeddedResource Include="Item\scemo2.JPG" />
+    <EmbeddedResource Include="Item\scemo3.JPG" />
+    <EmbeddedResource Include="Item\scemo4.JPG" />
+    <EmbeddedResource Include="Item\scfeng1.JPG" />
+    <EmbeddedResource Include="Item\scfeng2.JPG" />
+    <EmbeddedResource Include="Item\scfeng3.JPG" />
+    <EmbeddedResource Include="Item\scguang1.JPG" />
+    <EmbeddedResource Include="Item\scguang2.JPG" />
+    <EmbeddedResource Include="Item\scguang3.JPG" />
+    <EmbeddedResource Include="Item\schuo1.JPG" />
+    <EmbeddedResource Include="Item\schuo2.JPG" />
+    <EmbeddedResource Include="Item\schuo3.JPG" />
+    <EmbeddedResource Include="Item\scjingling1.JPG" />
+    <EmbeddedResource Include="Item\scjingling2.JPG" />
+    <EmbeddedResource Include="Item\scjingling3.JPG" />
+    <EmbeddedResource Include="Item\scjingling4.JPG" />
+    <EmbeddedResource Include="Item\scjixie1.JPG" />
+    <EmbeddedResource Include="Item\scjixie2.JPG" />
+    <EmbeddedResource Include="Item\scjixie3.JPG" />
+    <EmbeddedResource Include="Item\scjixie4.JPG" />
+    <EmbeddedResource Include="Item\sckunchong1.JPG" />
+    <EmbeddedResource Include="Item\sckunchong2.JPG" />
+    <EmbeddedResource Include="Item\sckunchong3.JPG" />
+    <EmbeddedResource Include="Item\sckunchong4.JPG" />
+    <EmbeddedResource Include="Item\sclei1.JPG" />
+    <EmbeddedResource Include="Item\sclei2.JPG" />
+    <EmbeddedResource Include="Item\sclei3.JPG" />
+    <EmbeddedResource Include="Item\sclong1.JPG" />
+    <EmbeddedResource Include="Item\sclong2.JPG" />
+    <EmbeddedResource Include="Item\sclong3.JPG" />
+    <EmbeddedResource Include="Item\sclong4.JPG" />
+    <EmbeddedResource Include="Item\scniao1.JPG" />
+    <EmbeddedResource Include="Item\scniao2.JPG" />
+    <EmbeddedResource Include="Item\scniao3.JPG" />
+    <EmbeddedResource Include="Item\scniao4.JPG" />
+    <EmbeddedResource Include="Item\scpaxing1.JPG" />
+    <EmbeddedResource Include="Item\scpaxing2.JPG" />
+    <EmbeddedResource Include="Item\scpaxing3.JPG" />
+    <EmbeddedResource Include="Item\scpaxing4.JPG" />
+    <EmbeddedResource Include="Item\screnlei1.JPG" />
+    <EmbeddedResource Include="Item\screnlei2.JPG" />
+    <EmbeddedResource Include="Item\screnlei3.JPG" />
+    <EmbeddedResource Include="Item\screnlei4.JPG" />
+    <EmbeddedResource Include="Item\scshouren1.JPG" />
+    <EmbeddedResource Include="Item\scshouren2.JPG" />
+    <EmbeddedResource Include="Item\scshouren3.JPG" />
+    <EmbeddedResource Include="Item\scshouren4.JPG" />
+    <EmbeddedResource Include="Item\scshui1.JPG" />
+    <EmbeddedResource Include="Item\scshui2.JPG" />
+    <EmbeddedResource Include="Item\scshui3.JPG" />
+    <EmbeddedResource Include="Item\scwangling1.JPG" />
+    <EmbeddedResource Include="Item\scwangling2.JPG" />
+    <EmbeddedResource Include="Item\scwangling3.JPG" />
+    <EmbeddedResource Include="Item\scwangling4.JPG" />
+    <EmbeddedResource Include="Item\scwu1.JPG" />
+    <EmbeddedResource Include="Item\scwu2.JPG" />
+    <EmbeddedResource Include="Item\scwu3.JPG" />
+    <EmbeddedResource Include="Item\scyeshou1.JPG" />
+    <EmbeddedResource Include="Item\scyeshou2.JPG" />
+    <EmbeddedResource Include="Item\scyeshou3.JPG" />
+    <EmbeddedResource Include="Item\scyeshou4.JPG" />
+    <EmbeddedResource Include="Item\scyu1.JPG" />
+    <EmbeddedResource Include="Item\scyu2.JPG" />
+    <EmbeddedResource Include="Item\scyu3.JPG" />
+    <EmbeddedResource Include="Item\scyu4.JPG" />
+    <EmbeddedResource Include="Item\scyuansu1.JPG" />
+    <EmbeddedResource Include="Item\scyuansu2.JPG" />
+    <EmbeddedResource Include="Item\scyuansu3.JPG" />
+    <EmbeddedResource Include="Item\scyuansu4.JPG" />
+    <EmbeddedResource Include="Item\sczhiwu1.JPG" />
+    <EmbeddedResource Include="Item\sczhiwu2.JPG" />
+    <EmbeddedResource Include="Item\sczhiwu3.JPG" />
+    <EmbeddedResource Include="Item\sczhiwu4.JPG" />
+    <EmbeddedResource Include="Item\self.JPG" />
+    <EmbeddedResource Include="Item\shayuqi.JPG" />
+    <EmbeddedResource Include="Item\shefa.JPG" />
+    <EmbeddedResource Include="Item\shengdanmao.JPG" />
+    <EmbeddedResource Include="Item\shengguang.JPG" />
+    <EmbeddedResource Include="Item\shengguo.JPG" />
+    <EmbeddedResource Include="Item\shenmishi.JPG" />
+    <EmbeddedResource Include="Item\shenmisuipian.JPG" />
+    <EmbeddedResource Include="Item\shepi.JPG" />
+    <EmbeddedResource Include="Item\shetou.JPG" />
+    <EmbeddedResource Include="Item\shibanyu.JPG" />
+    <EmbeddedResource Include="Item\shijiuyu.JPG" />
+    <EmbeddedResource Include="Item\shilun.JPG" />
+    <EmbeddedResource Include="Item\shilun2.JPG" />
+    <EmbeddedResource Include="Item\shipifu.JPG" />
+    <EmbeddedResource Include="Item\shizi.JPG" />
+    <EmbeddedResource Include="Item\shoudao.JPG" />
+    <EmbeddedResource Include="Item\shuidi.JPG" />
+    <EmbeddedResource Include="Item\shuijingqiufen.JPG" />
+    <EmbeddedResource Include="Item\shuimoshi.JPG" />
+    <EmbeddedResource Include="Item\shuling.JPG" />
+    <EmbeddedResource Include="Item\shumao.JPG" />
+    <EmbeddedResource Include="Item\shuzhi.JPG" />
+    <EmbeddedResource Include="Item\suijika1.JPG" />
+    <EmbeddedResource Include="Item\suijika2.JPG" />
+    <EmbeddedResource Include="Item\suijika3.JPG" />
+    <EmbeddedResource Include="Item\taidao.JPG" />
+    <EmbeddedResource Include="Item\taiyangou.JPG" />
+    <EmbeddedResource Include="Item\tanisi.JPG" />
+    <EmbeddedResource Include="Item\tengtiao.JPG" />
+    <EmbeddedResource Include="Item\tiaozhanjiangzhang.JPG" />
+    <EmbeddedResource Include="Item\tideng.JPG" />
+    <EmbeddedResource Include="Item\tiechibang.JPG" />
+    <EmbeddedResource Include="Item\tieguan.JPG" />
+    <EmbeddedResource Include="Item\tiekuai.JPG" />
+    <EmbeddedResource Include="Item\tiekuangshi.JPG" />
+    <EmbeddedResource Include="Item\toukui.JPG" />
+    <EmbeddedResource Include="Item\wangyuanjing.JPG" />
+    <EmbeddedResource Include="Item\weia.JPG" />
+    <EmbeddedResource Include="Item\xianggu.JPG" />
+    <EmbeddedResource Include="Item\xiangya.JPG" />
+    <EmbeddedResource Include="Item\xiaochoumao.JPG" />
+    <EmbeddedResource Include="Item\xieling.JPG" />
+    <EmbeddedResource Include="Item\xieqian.JPG" />
+    <EmbeddedResource Include="Item\xieshici.JPG" />
+    <EmbeddedResource Include="Item\xinshoulibao.JPG" />
+    <EmbeddedResource Include="Item\xueji.JPG" />
+    <EmbeddedResource Include="Item\yachi.JPG" />
+    <EmbeddedResource Include="Item\yandou.JPG" />
+    <EmbeddedResource Include="Item\yanqueshi.JPG" />
+    <EmbeddedResource Include="Item\yaodai.JPG" />
+    <EmbeddedResource Include="Item\yaoshuiadp.JPG" />
+    <EmbeddedResource Include="Item\yaoshuidef.JPG" />
+    <EmbeddedResource Include="Item\yaoshuiluk.JPG" />
+    <EmbeddedResource Include="Item\yaoshuimag.JPG" />
+    <EmbeddedResource Include="Item\yaoshuiskl.JPG" />
+    <EmbeddedResource Include="Item\yaoshuispd.JPG" />
+    <EmbeddedResource Include="Item\yaoshuistr.JPG" />
+    <EmbeddedResource Include="Item\yaoshuivit.JPG" />
+    <EmbeddedResource Include="Item\yeganghua.JPG" />
+    <EmbeddedResource Include="Item\yeshoupi.JPG" />
+    <EmbeddedResource Include="Item\yinshi.JPG" />
+    <EmbeddedResource Include="Item\yinyecao.JPG" />
+    <EmbeddedResource Include="Item\youqi.JPG" />
+    <EmbeddedResource Include="Item\youyu.JPG" />
+    <EmbeddedResource Include="Item\yuexiuya.JPG" />
+    <EmbeddedResource Include="Item\yumao.JPG" />
+    <EmbeddedResource Include="Item\yuyancao.JPG" />
+    <EmbeddedResource Include="Item\zeno.JPG" />
+    <EmbeddedResource Include="Item\zhangyu.JPG" />
+    <EmbeddedResource Include="Item\zhenci.JPG" />
+    <EmbeddedResource Include="Item\zhizhu.JPG" />
+    <EmbeddedResource Include="Item\zhongbiao.JPG" />
+    <EmbeddedResource Include="Item\zhongmao.JPG" />
+    <EmbeddedResource Include="Item\zhuangfashe.JPG" />
+    <EmbeddedResource Include="Item\zhuangzhifeixing.JPG" />
+    <EmbeddedResource Include="Item\ziguang.JPG" />
+    <EmbeddedResource Include="Item\zihuxu.JPG" />
+    <EmbeddedResource Include="Item\zilonglin.JPG" />
+    <EmbeddedResource Include="Item\zimatitie.JPG" />
+    <EmbeddedResource Include="Item\zipimao.JPG" />
+    <EmbeddedResource Include="Item\ziqiu.JPG" />
+    <EmbeddedResource Include="Item\ziqiu2.JPG" />
+    <EmbeddedResource Include="Item\ziseyaoshui.JPG" />
+    <EmbeddedResource Include="Item\ziseyaoshuida.JPG" />
+    <EmbeddedResource Include="Item\ziseyaoshuizhong.JPG" />
+    <EmbeddedResource Include="Item\ziyuanbaoshi.JPG" />
+    <EmbeddedResource Include="Item\ziyuankuangshi.JPG" />
+    <EmbeddedResource Include="Item\ziyuanliuhuang.JPG" />
+    <EmbeddedResource Include="Item\ziyuanmucai.JPG" />
+    <EmbeddedResource Include="Item\ziyuanquan.JPG" />
+    <EmbeddedResource Include="Item\ziyuanshuijing.JPG" />
+    <EmbeddedResource Include="Item\ziyuanshuiyin.JPG" />
+    <EmbeddedResource Include="Item\ziyumao.JPG" />
+    <EmbeddedResource Include="Item\zizhua.JPG" />
+    <EmbeddedResource Include="Item\zongbuliao.JPG" />
+    <EmbeddedResource Include="Item\zongfangshi.JPG" />
+    <EmbeddedResource Include="Item\zonglangpi.JPG" />
+    <EmbeddedResource Include="Item\zongsha.JPG" />
+    <EmbeddedResource Include="Item\zuanshiyan.JPG" />
+    <EmbeddedResource Include="MapIcon\bstgt.PNG" />
+    <EmbeddedResource Include="MapIcon\cwxw.PNG" />
+    <EmbeddedResource Include="MapIcon\cwyy.PNG" />
+    <EmbeddedResource Include="MapIcon\dlkxg.PNG" />
+    <EmbeddedResource Include="MapIcon\gdh.PNG" />
+    <EmbeddedResource Include="MapIcon\gdyj.PNG" />
+    <EmbeddedResource Include="MapIcon\haml.PNG" />
+    <EmbeddedResource Include="MapIcon\hjha.PNG" />
+    <EmbeddedResource Include="MapIcon\llf.PNG" />
+    <EmbeddedResource Include="MapIcon\myzc.PNG" />
+    <EmbeddedResource Include="MapIcon\psgc.PNG" />
+    <EmbeddedResource Include="MapIcon\ttmc.PNG" />
+    <EmbeddedResource Include="MapIcon\wg.PNG" />
+    <EmbeddedResource Include="MapIcon\xsl.PNG" />
+    <EmbeddedResource Include="MapIcon\yjht.PNG" />
+    <EmbeddedResource Include="Map\arrow.PNG" />
+    <EmbeddedResource Include="Map\block.PNG" />
+    <EmbeddedResource Include="Map\hero.PNG" />
+    <EmbeddedResource Include="Map\title.PNG" />
+    <EmbeddedResource Include="Map\worldmap.JPG" />
+    <EmbeddedResource Include="Maze\darkforest.JPG" />
+    <EmbeddedResource Include="Maze\hightower.JPG" />
+    <EmbeddedResource Include="Maze\mountaininner.JPG" />
+    <EmbeddedResource Include="Maze\oldcity.JPG" />
+    <EmbeddedResource Include="Maze\door.JPG" />
+    <EmbeddedResource Include="Monsters\1.JPG" />
+    <EmbeddedResource Include="Monsters\10.JPG" />
+    <EmbeddedResource Include="Monsters\100.JPG" />
+    <EmbeddedResource Include="Monsters\101.JPG" />
+    <EmbeddedResource Include="Monsters\102.JPG" />
+    <EmbeddedResource Include="Monsters\103.JPG" />
+    <EmbeddedResource Include="Monsters\104.JPG" />
+    <EmbeddedResource Include="Monsters\105.JPG" />
+    <EmbeddedResource Include="Monsters\106.JPG" />
+    <EmbeddedResource Include="Monsters\107.JPG" />
+    <EmbeddedResource Include="Monsters\108.JPG" />
+    <EmbeddedResource Include="Monsters\109.JPG" />
+    <EmbeddedResource Include="Monsters\11.JPG" />
+    <EmbeddedResource Include="Monsters\110.JPG" />
+    <EmbeddedResource Include="Monsters\111.JPG" />
+    <EmbeddedResource Include="Monsters\112.JPG" />
+    <EmbeddedResource Include="Monsters\113.JPG" />
+    <EmbeddedResource Include="Monsters\114.JPG" />
+    <EmbeddedResource Include="Monsters\115.JPG" />
+    <EmbeddedResource Include="Monsters\116.JPG" />
+    <EmbeddedResource Include="Monsters\117.JPG" />
+    <EmbeddedResource Include="Monsters\118.JPG" />
+    <EmbeddedResource Include="Monsters\119.JPG" />
+    <EmbeddedResource Include="Monsters\12.JPG" />
+    <EmbeddedResource Include="Monsters\120.JPG" />
+    <EmbeddedResource Include="Monsters\121.JPG" />
+    <EmbeddedResource Include="Monsters\122.JPG" />
+    <EmbeddedResource Include="Monsters\123.JPG" />
+    <EmbeddedResource Include="Monsters\124.JPG" />
+    <EmbeddedResource Include="Monsters\125.JPG" />
+    <EmbeddedResource Include="Monsters\126.JPG" />
+    <EmbeddedResource Include="Monsters\127.JPG" />
+    <EmbeddedResource Include="Monsters\128.JPG" />
+    <EmbeddedResource Include="Monsters\129.JPG" />
+    <EmbeddedResource Include="Monsters\13.JPG" />
+    <EmbeddedResource Include="Monsters\130.JPG" />
+    <EmbeddedResource Include="Monsters\131.JPG" />
+    <EmbeddedResource Include="Monsters\132.JPG" />
+    <EmbeddedResource Include="Monsters\133.JPG" />
+    <EmbeddedResource Include="Monsters\134.JPG" />
+    <EmbeddedResource Include="Monsters\135.JPG" />
+    <EmbeddedResource Include="Monsters\136.JPG" />
+    <EmbeddedResource Include="Monsters\137.JPG" />
+    <EmbeddedResource Include="Monsters\138.JPG" />
+    <EmbeddedResource Include="Monsters\139.JPG" />
+    <EmbeddedResource Include="Monsters\14.JPG" />
+    <EmbeddedResource Include="Monsters\140.JPG" />
+    <EmbeddedResource Include="Monsters\141.JPG" />
+    <EmbeddedResource Include="Monsters\142.JPG" />
+    <EmbeddedResource Include="Monsters\143.JPG" />
+    <EmbeddedResource Include="Monsters\144.JPG" />
+    <EmbeddedResource Include="Monsters\145.JPG" />
+    <EmbeddedResource Include="Monsters\146.JPG" />
+    <EmbeddedResource Include="Monsters\147.JPG" />
+    <EmbeddedResource Include="Monsters\148.JPG" />
+    <EmbeddedResource Include="Monsters\149.JPG" />
+    <EmbeddedResource Include="Monsters\15.JPG" />
+    <EmbeddedResource Include="Monsters\150.JPG" />
+    <EmbeddedResource Include="Monsters\151.JPG" />
+    <EmbeddedResource Include="Monsters\152.JPG" />
+    <EmbeddedResource Include="Monsters\153.JPG" />
+    <EmbeddedResource Include="Monsters\154.JPG" />
+    <EmbeddedResource Include="Monsters\155.JPG" />
+    <EmbeddedResource Include="Monsters\156.JPG" />
+    <EmbeddedResource Include="Monsters\157.JPG" />
+    <EmbeddedResource Include="Monsters\158.JPG" />
+    <EmbeddedResource Include="Monsters\159.JPG" />
+    <EmbeddedResource Include="Monsters\16.JPG" />
+    <EmbeddedResource Include="Monsters\160.JPG" />
+    <EmbeddedResource Include="Monsters\161.JPG" />
+    <EmbeddedResource Include="Monsters\162.JPG" />
+    <EmbeddedResource Include="Monsters\163.JPG" />
+    <EmbeddedResource Include="Monsters\164.JPG" />
+    <EmbeddedResource Include="Monsters\165.JPG" />
+    <EmbeddedResource Include="Monsters\166.JPG" />
+    <EmbeddedResource Include="Monsters\167.JPG" />
+    <EmbeddedResource Include="Monsters\168.JPG" />
+    <EmbeddedResource Include="Monsters\169.JPG" />
+    <EmbeddedResource Include="Monsters\17.JPG" />
+    <EmbeddedResource Include="Monsters\170.JPG" />
+    <EmbeddedResource Include="Monsters\171.JPG" />
+    <EmbeddedResource Include="Monsters\172.JPG" />
+    <EmbeddedResource Include="Monsters\173.JPG" />
+    <EmbeddedResource Include="Monsters\174.JPG" />
+    <EmbeddedResource Include="Monsters\175.JPG" />
+    <EmbeddedResource Include="Monsters\176.JPG" />
+    <EmbeddedResource Include="Monsters\177.JPG" />
+    <EmbeddedResource Include="Monsters\178.JPG" />
+    <EmbeddedResource Include="Monsters\179.JPG" />
+    <EmbeddedResource Include="Monsters\18.JPG" />
+    <EmbeddedResource Include="Monsters\180.JPG" />
+    <EmbeddedResource Include="Monsters\181.JPG" />
+    <EmbeddedResource Include="Monsters\182.JPG" />
+    <EmbeddedResource Include="Monsters\183.JPG" />
+    <EmbeddedResource Include="Monsters\184.JPG" />
+    <EmbeddedResource Include="Monsters\185.JPG" />
+    <EmbeddedResource Include="Monsters\186.JPG" />
+    <EmbeddedResource Include="Monsters\187.JPG" />
+    <EmbeddedResource Include="Monsters\188.JPG" />
+    <EmbeddedResource Include="Monsters\189.JPG" />
+    <EmbeddedResource Include="Monsters\19.JPG" />
+    <EmbeddedResource Include="Monsters\190.JPG" />
+    <EmbeddedResource Include="Monsters\191.JPG" />
+    <EmbeddedResource Include="Monsters\192.JPG" />
+    <EmbeddedResource Include="Monsters\193.JPG" />
+    <EmbeddedResource Include="Monsters\194.JPG" />
+    <EmbeddedResource Include="Monsters\195.JPG" />
+    <EmbeddedResource Include="Monsters\196.JPG" />
+    <EmbeddedResource Include="Monsters\197.JPG" />
+    <EmbeddedResource Include="Monsters\198.JPG" />
+    <EmbeddedResource Include="Monsters\199.JPG" />
+    <EmbeddedResource Include="Monsters\2.JPG" />
+    <EmbeddedResource Include="Monsters\20.JPG" />
+    <EmbeddedResource Include="Monsters\200.JPG" />
+    <EmbeddedResource Include="Monsters\201.JPG" />
+    <EmbeddedResource Include="Monsters\202.JPG" />
+    <EmbeddedResource Include="Monsters\203.JPG" />
+    <EmbeddedResource Include="Monsters\204.JPG" />
+    <EmbeddedResource Include="Monsters\205.JPG" />
+    <EmbeddedResource Include="Monsters\206.JPG" />
+    <EmbeddedResource Include="Monsters\207.JPG" />
+    <EmbeddedResource Include="Monsters\208.JPG" />
+    <EmbeddedResource Include="Monsters\209.JPG" />
+    <EmbeddedResource Include="Monsters\21.JPG" />
+    <EmbeddedResource Include="Monsters\210.JPG" />
+    <EmbeddedResource Include="Monsters\211.JPG" />
+    <EmbeddedResource Include="Monsters\212.JPG" />
+    <EmbeddedResource Include="Monsters\213.JPG" />
+    <EmbeddedResource Include="Monsters\214.JPG" />
+    <EmbeddedResource Include="Monsters\215.JPG" />
+    <EmbeddedResource Include="Monsters\216.JPG" />
+    <EmbeddedResource Include="Monsters\217.JPG" />
+    <EmbeddedResource Include="Monsters\218.JPG" />
+    <EmbeddedResource Include="Monsters\219.JPG" />
+    <EmbeddedResource Include="Monsters\22.JPG" />
+    <EmbeddedResource Include="Monsters\220.JPG" />
+    <EmbeddedResource Include="Monsters\221.JPG" />
+    <EmbeddedResource Include="Monsters\222.JPG" />
+    <EmbeddedResource Include="Monsters\223.JPG" />
+    <EmbeddedResource Include="Monsters\224.JPG" />
+    <EmbeddedResource Include="Monsters\225.JPG" />
+    <EmbeddedResource Include="Monsters\226.JPG" />
+    <EmbeddedResource Include="Monsters\227.JPG" />
+    <EmbeddedResource Include="Monsters\228.JPG" />
+    <EmbeddedResource Include="Monsters\229.JPG" />
+    <EmbeddedResource Include="Monsters\23.JPG" />
+    <EmbeddedResource Include="Monsters\230.JPG" />
+    <EmbeddedResource Include="Monsters\231.JPG" />
+    <EmbeddedResource Include="Monsters\232.JPG" />
+    <EmbeddedResource Include="Monsters\233.JPG" />
+    <EmbeddedResource Include="Monsters\234.JPG" />
+    <EmbeddedResource Include="Monsters\235.JPG" />
+    <EmbeddedResource Include="Monsters\236.JPG" />
+    <EmbeddedResource Include="Monsters\237.JPG" />
+    <EmbeddedResource Include="Monsters\238.JPG" />
+    <EmbeddedResource Include="Monsters\239.JPG" />
+    <EmbeddedResource Include="Monsters\24.JPG" />
+    <EmbeddedResource Include="Monsters\240.JPG" />
+    <EmbeddedResource Include="Monsters\241.JPG" />
+    <EmbeddedResource Include="Monsters\242.JPG" />
+    <EmbeddedResource Include="Monsters\243.JPG" />
+    <EmbeddedResource Include="Monsters\244.JPG" />
+    <EmbeddedResource Include="Monsters\245.JPG" />
+    <EmbeddedResource Include="Monsters\246.JPG" />
+    <EmbeddedResource Include="Monsters\247.JPG" />
+    <EmbeddedResource Include="Monsters\248.JPG" />
+    <EmbeddedResource Include="Monsters\249.JPG" />
+    <EmbeddedResource Include="Monsters\25.JPG" />
+    <EmbeddedResource Include="Monsters\250.JPG" />
+    <EmbeddedResource Include="Monsters\251.JPG" />
+    <EmbeddedResource Include="Monsters\252.JPG" />
+    <EmbeddedResource Include="Monsters\253.JPG" />
+    <EmbeddedResource Include="Monsters\254.JPG" />
+    <EmbeddedResource Include="Monsters\255.JPG" />
+    <EmbeddedResource Include="Monsters\256.JPG" />
+    <EmbeddedResource Include="Monsters\257.JPG" />
+    <EmbeddedResource Include="Monsters\258.JPG" />
+    <EmbeddedResource Include="Monsters\259.JPG" />
+    <EmbeddedResource Include="Monsters\26.JPG" />
+    <EmbeddedResource Include="Monsters\260.JPG" />
+    <EmbeddedResource Include="Monsters\261.JPG" />
+    <EmbeddedResource Include="Monsters\262.JPG" />
+    <EmbeddedResource Include="Monsters\263.JPG" />
+    <EmbeddedResource Include="Monsters\264.JPG" />
+    <EmbeddedResource Include="Monsters\265.JPG" />
+    <EmbeddedResource Include="Monsters\266.JPG" />
+    <EmbeddedResource Include="Monsters\267.JPG" />
+    <EmbeddedResource Include="Monsters\268.JPG" />
+    <EmbeddedResource Include="Monsters\269.JPG" />
+    <EmbeddedResource Include="Monsters\27.JPG" />
+    <EmbeddedResource Include="Monsters\270.JPG" />
+    <EmbeddedResource Include="Monsters\271.JPG" />
+    <EmbeddedResource Include="Monsters\272.JPG" />
+    <EmbeddedResource Include="Monsters\273.JPG" />
+    <EmbeddedResource Include="Monsters\274.JPG" />
+    <EmbeddedResource Include="Monsters\275.JPG" />
+    <EmbeddedResource Include="Monsters\276.JPG" />
+    <EmbeddedResource Include="Monsters\277.JPG" />
+    <EmbeddedResource Include="Monsters\278.JPG" />
+    <EmbeddedResource Include="Monsters\279.JPG" />
+    <EmbeddedResource Include="Monsters\28.JPG" />
+    <EmbeddedResource Include="Monsters\280.JPG" />
+    <EmbeddedResource Include="Monsters\281.JPG" />
+    <EmbeddedResource Include="Monsters\282.JPG" />
+    <EmbeddedResource Include="Monsters\283.JPG" />
+    <EmbeddedResource Include="Monsters\284.JPG" />
+    <EmbeddedResource Include="Monsters\285.JPG" />
+    <EmbeddedResource Include="Monsters\286.JPG" />
+    <EmbeddedResource Include="Monsters\287.JPG" />
+    <EmbeddedResource Include="Monsters\288.JPG" />
+    <EmbeddedResource Include="Monsters\289.JPG" />
+    <EmbeddedResource Include="Monsters\29.JPG" />
+    <EmbeddedResource Include="Monsters\290.JPG" />
+    <EmbeddedResource Include="Monsters\291.JPG" />
+    <EmbeddedResource Include="Monsters\3.JPG" />
+    <EmbeddedResource Include="Monsters\30.JPG" />
+    <EmbeddedResource Include="Monsters\31.JPG" />
+    <EmbeddedResource Include="Monsters\32.JPG" />
+    <EmbeddedResource Include="Monsters\33.JPG" />
+    <EmbeddedResource Include="Monsters\34.JPG" />
+    <EmbeddedResource Include="Monsters\35.JPG" />
+    <EmbeddedResource Include="Monsters\36.JPG" />
+    <EmbeddedResource Include="Monsters\37.JPG" />
+    <EmbeddedResource Include="Monsters\38.JPG" />
+    <EmbeddedResource Include="Monsters\39.JPG" />
+    <EmbeddedResource Include="Monsters\4.JPG" />
+    <EmbeddedResource Include="Monsters\40.JPG" />
+    <EmbeddedResource Include="Monsters\41.JPG" />
+    <EmbeddedResource Include="Monsters\42.JPG" />
+    <EmbeddedResource Include="Monsters\43.JPG" />
+    <EmbeddedResource Include="Monsters\44.JPG" />
+    <EmbeddedResource Include="Monsters\45.JPG" />
+    <EmbeddedResource Include="Monsters\46.JPG" />
+    <EmbeddedResource Include="Monsters\47.JPG" />
+    <EmbeddedResource Include="Monsters\48.JPG" />
+    <EmbeddedResource Include="Monsters\49.JPG" />
+    <EmbeddedResource Include="Monsters\5.JPG" />
+    <EmbeddedResource Include="Monsters\50.JPG" />
+    <EmbeddedResource Include="Monsters\51.JPG" />
+    <EmbeddedResource Include="Monsters\52.JPG" />
+    <EmbeddedResource Include="Monsters\53.JPG" />
+    <EmbeddedResource Include="Monsters\54.JPG" />
+    <EmbeddedResource Include="Monsters\55.JPG" />
+    <EmbeddedResource Include="Monsters\56.JPG" />
+    <EmbeddedResource Include="Monsters\57.JPG" />
+    <EmbeddedResource Include="Monsters\58.JPG" />
+    <EmbeddedResource Include="Monsters\59.JPG" />
+    <EmbeddedResource Include="Monsters\6.JPG" />
+    <EmbeddedResource Include="Monsters\60.JPG" />
+    <EmbeddedResource Include="Monsters\61.JPG" />
+    <EmbeddedResource Include="Monsters\62.JPG" />
+    <EmbeddedResource Include="Monsters\63.JPG" />
+    <EmbeddedResource Include="Monsters\64.JPG" />
+    <EmbeddedResource Include="Monsters\65.JPG" />
+    <EmbeddedResource Include="Monsters\66.JPG" />
+    <EmbeddedResource Include="Monsters\67.JPG" />
+    <EmbeddedResource Include="Monsters\68.JPG" />
+    <EmbeddedResource Include="Monsters\69.JPG" />
+    <EmbeddedResource Include="Monsters\7.JPG" />
+    <EmbeddedResource Include="Monsters\70.JPG" />
+    <EmbeddedResource Include="Monsters\71.JPG" />
+    <EmbeddedResource Include="Monsters\72.JPG" />
+    <EmbeddedResource Include="Monsters\73.JPG" />
+    <EmbeddedResource Include="Monsters\74.JPG" />
+    <EmbeddedResource Include="Monsters\75.JPG" />
+    <EmbeddedResource Include="Monsters\76.JPG" />
+    <EmbeddedResource Include="Monsters\77.JPG" />
+    <EmbeddedResource Include="Monsters\78.JPG" />
+    <EmbeddedResource Include="Monsters\79.JPG" />
+    <EmbeddedResource Include="Monsters\8.JPG" />
+    <EmbeddedResource Include="Monsters\80.JPG" />
+    <EmbeddedResource Include="Monsters\81.JPG" />
+    <EmbeddedResource Include="Monsters\82.JPG" />
+    <EmbeddedResource Include="Monsters\83.JPG" />
+    <EmbeddedResource Include="Monsters\84.JPG" />
+    <EmbeddedResource Include="Monsters\85.JPG" />
+    <EmbeddedResource Include="Monsters\86.JPG" />
+    <EmbeddedResource Include="Monsters\87.JPG" />
+    <EmbeddedResource Include="Monsters\88.JPG" />
+    <EmbeddedResource Include="Monsters\89.JPG" />
+    <EmbeddedResource Include="Monsters\9.JPG" />
+    <EmbeddedResource Include="Monsters\90.JPG" />
+    <EmbeddedResource Include="Monsters\91.JPG" />
+    <EmbeddedResource Include="Monsters\92.JPG" />
+    <EmbeddedResource Include="Monsters\93.JPG" />
+    <EmbeddedResource Include="Monsters\94.JPG" />
+    <EmbeddedResource Include="Monsters\95.JPG" />
+    <EmbeddedResource Include="Monsters\96.JPG" />
+    <EmbeddedResource Include="Monsters\97.JPG" />
+    <EmbeddedResource Include="Monsters\98.JPG" />
+    <EmbeddedResource Include="Monsters\99.JPG" />
+    <EmbeddedResource Include="NPC\aoluha.PNG" />
+    <EmbeddedResource Include="NPC\board.PNG" />
+    <EmbeddedResource Include="NPC\cunfu1.PNG" />
+    <EmbeddedResource Include="NPC\cungu.PNG" />
+    <EmbeddedResource Include="NPC\darkforest.PNG" />
+    <EmbeddedResource Include="NPC\dolen.PNG" />
+    <EmbeddedResource Include="NPC\door.PNG" />
+    <EmbeddedResource Include="NPC\grass.PNG" />
+    <EmbeddedResource Include="NPC\guard.PNG" />
+    <EmbeddedResource Include="NPC\guyan.PNG" />
+    <EmbeddedResource Include="NPC\joll.PNG" />
+    <EmbeddedResource Include="NPC\jolos.PNG" />
+    <EmbeddedResource Include="NPC\jost.PNG" />
+    <EmbeddedResource Include="NPC\kasiwus.PNG" />
+    <EmbeddedResource Include="NPC\laotou.PNG" />
+    <EmbeddedResource Include="NPC\laozhe.PNG" />
+    <EmbeddedResource Include="NPC\liana.PNG" />
+    <EmbeddedResource Include="NPC\mary.PNG" />
+    <EmbeddedResource Include="NPC\mushroom.PNG" />
+    <EmbeddedResource Include="NPC\qiaosiji.PNG" />
+    <EmbeddedResource Include="NPC\sally.PNG" />
+    <EmbeddedResource Include="NPC\sand.PNG" />
+    <EmbeddedResource Include="NPC\sarina.PNG" />
+    <EmbeddedResource Include="NPC\smallroad.PNG" />
+    <EmbeddedResource Include="NPC\suxi.PNG" />
+    <EmbeddedResource Include="NPC\tiejiang.PNG" />
+    <EmbeddedResource Include="NPC\waterpool.PNG" />
+    <EmbeddedResource Include="NPC\yellowtree.PNG" />
+    <EmbeddedResource Include="NPC\yufu.PNG" />
+    <EmbeddedResource Include="People\aisiter.PNG" />
+    <EmbeddedResource Include="People\aolai.PNG" />
+    <EmbeddedResource Include="People\artrom.PNG" />
+    <EmbeddedResource Include="People\baludi.PNG" />
+    <EmbeddedResource Include="People\beilukai.PNG" />
+    <EmbeddedResource Include="People\cheng.PNG" />
+    <EmbeddedResource Include="People\dragon.PNG" />
+    <EmbeddedResource Include="People\feichong.PNG" />
+    <EmbeddedResource Include="People\gailu.PNG" />
+    <EmbeddedResource Include="People\haima.PNG" />
+    <EmbeddedResource Include="People\jiangshi.PNG" />
+    <EmbeddedResource Include="People\kedi.PNG" />
+    <EmbeddedResource Include="People\kulou.PNG" />
+    <EmbeddedResource Include="People\kuloufashi.PNG" />
+    <EmbeddedResource Include="People\lakar.PNG" />
+    <EmbeddedResource Include="People\lang.PNG" />
+    <EmbeddedResource Include="People\laoshu.PNG" />
+    <EmbeddedResource Include="People\leiluo.PNG" />
+    <EmbeddedResource Include="People\luka.PNG" />
+    <EmbeddedResource Include="People\masha.PNG" />
+    <EmbeddedResource Include="People\milanda.PNG" />
+    <EmbeddedResource Include="People\mvz.PNG" />
+    <EmbeddedResource Include="People\nanami.PNG" />
+    <EmbeddedResource Include="People\neifuni.PNG" />
+    <EmbeddedResource Include="People\node.PNG" />
+    <EmbeddedResource Include="People\powderwar.PNG" />
+    <EmbeddedResource Include="People\pvz.PNG" />
+    <EmbeddedResource Include="People\rand.PNG" />
+    <EmbeddedResource Include="People\saen.PNG" />
+    <EmbeddedResource Include="People\saibasi.PNG" />
+    <EmbeddedResource Include="People\sainisi.PNG" />
+    <EmbeddedResource Include="People\self.PNG" />
+    <EmbeddedResource Include="People\shuishashou.PNG" />
+    <EmbeddedResource Include="People\tanisi.PNG" />
+    <EmbeddedResource Include="People\weia.PNG" />
+    <EmbeddedResource Include="People\wuya.PNG" />
+    <EmbeddedResource Include="People\youling.PNG" />
+    <EmbeddedResource Include="People\youqi.PNG" />
+    <EmbeddedResource Include="People\yuexiuya.PNG" />
+    <EmbeddedResource Include="People\zeno.PNG" />
+    <EmbeddedResource Include="Player\1.PNG" />
+    <EmbeddedResource Include="Player\10.PNG" />
+    <EmbeddedResource Include="Player\11.PNG" />
+    <EmbeddedResource Include="Player\12.PNG" />
+    <EmbeddedResource Include="Player\13.PNG" />
+    <EmbeddedResource Include="Player\14.PNG" />
+    <EmbeddedResource Include="Player\15.PNG" />
+    <EmbeddedResource Include="Player\16.PNG" />
+    <EmbeddedResource Include="Player\17.PNG" />
+    <EmbeddedResource Include="Player\18.PNG" />
+    <EmbeddedResource Include="Player\19.PNG" />
+    <EmbeddedResource Include="Player\2.PNG" />
+    <EmbeddedResource Include="Player\20.PNG" />
+    <EmbeddedResource Include="Player\21.PNG" />
+    <EmbeddedResource Include="Player\22.PNG" />
+    <EmbeddedResource Include="Player\23.PNG" />
+    <EmbeddedResource Include="Player\24.PNG" />
+    <EmbeddedResource Include="Player\25.PNG" />
+    <EmbeddedResource Include="Player\26.PNG" />
+    <EmbeddedResource Include="Player\27.PNG" />
+    <EmbeddedResource Include="Player\28.PNG" />
+    <EmbeddedResource Include="Player\29.PNG" />
+    <EmbeddedResource Include="Player\3.PNG" />
+    <EmbeddedResource Include="Player\30.PNG" />
+    <EmbeddedResource Include="Player\31.PNG" />
+    <EmbeddedResource Include="Player\32.PNG" />
+    <EmbeddedResource Include="Player\4.PNG" />
+    <EmbeddedResource Include="Player\5.PNG" />
+    <EmbeddedResource Include="Player\6.PNG" />
+    <EmbeddedResource Include="Player\7.PNG" />
+    <EmbeddedResource Include="Player\8.PNG" />
+    <EmbeddedResource Include="Player\9.PNG" />
+    <EmbeddedResource Include="Scene\1.JPG" />
+    <EmbeddedResource Include="Scene\10.JPG" />
+    <EmbeddedResource Include="Scene\11.JPG" />
+    <EmbeddedResource Include="Scene\12.JPG" />
+    <EmbeddedResource Include="Scene\13.JPG" />
+    <EmbeddedResource Include="Scene\14.JPG" />
+    <EmbeddedResource Include="Scene\15.JPG" />
+    <EmbeddedResource Include="Scene\16.JPG" />
+    <EmbeddedResource Include="Scene\2.JPG" />
+    <EmbeddedResource Include="Scene\3.JPG" />
+    <EmbeddedResource Include="Scene\4.JPG" />
+    <EmbeddedResource Include="Scene\5.JPG" />
+    <EmbeddedResource Include="Scene\6.JPG" />
+    <EmbeddedResource Include="Scene\7.JPG" />
+    <EmbeddedResource Include="Scene\8.JPG" />
+    <EmbeddedResource Include="Scene\9.JPG" />
+    <EmbeddedResource Include="Skill\andun.JPG" />
+    <EmbeddedResource Include="Skill\anse.JPG" />
+    <EmbeddedResource Include="Skill\anyan.JPG" />
+    <EmbeddedResource Include="Skill\anzhua.JPG" />
+    <EmbeddedResource Include="Skill\baoji.JPG" />
+    <EmbeddedResource Include="Skill\benzhong.JPG" />
+    <EmbeddedResource Include="Skill\bianhua.JPG" />
+    <EmbeddedResource Include="Skill\bianxiang.JPG" />
+    <EmbeddedResource Include="Skill\bianxing.JPG" />
+    <EmbeddedResource Include="Skill\bingchui.JPG" />
+    <EmbeddedResource Include="Skill\bingdun.JPG" />
+    <EmbeddedResource Include="Skill\bingfeng.JPG" />
+    <EmbeddedResource Include="Skill\bingkong.JPG" />
+    <EmbeddedResource Include="Skill\bingzhua.JPG" />
+    <EmbeddedResource Include="Skill\biyou.JPG" />
+    <EmbeddedResource Include="Skill\canshi.JPG" />
+    <EmbeddedResource Include="Skill\caoben.JPG" />
+    <EmbeddedResource Include="Skill\cexi.JPG" />
+    <EmbeddedResource Include="Skill\chengfa.JPG" />
+    <EmbeddedResource Include="Skill\chengjie.JPG" />
+    <EmbeddedResource Include="Skill\chihuan.JPG" />
+    <EmbeddedResource Include="Skill\chongfeng.JPG" />
+    <EmbeddedResource Include="Skill\chouhen.JPG" />
+    <EmbeddedResource Include="Skill\chuanshuo.JPG" />
+    <EmbeddedResource Include="Skill\chuansong.JPG" />
+    <EmbeddedResource Include="Skill\chuansong2.JPG" />
+    <EmbeddedResource Include="Skill\chuantou.JPG" />
+    <EmbeddedResource Include="Skill\chuanyue.JPG" />
+    <EmbeddedResource Include="Skill\cihua.JPG" />
+    <EmbeddedResource Include="Skill\cili.JPG" />
+    <EmbeddedResource Include="Skill\cisha.JPG" />
+    <EmbeddedResource Include="Skill\dadun.JPG" />
+    <EmbeddedResource Include="Skill\dafeng.JPG" />
+    <EmbeddedResource Include="Skill\daomo.JPG" />
+    <EmbeddedResource Include="Skill\daoqu.JPG" />
+    <EmbeddedResource Include="Skill\dazao.JPG" />
+    <EmbeddedResource Include="Skill\diandun.JPG" />
+    <EmbeddedResource Include="Skill\didun.JPG" />
+    <EmbeddedResource Include="Skill\dilie.JPG" />
+    <EmbeddedResource Include="Skill\diren.JPG" />
+    <EmbeddedResource Include="Skill\dizhu.JPG" />
+    <EmbeddedResource Include="Skill\duci.JPG" />
+    <EmbeddedResource Include="Skill\dunren.JPG" />
+    <EmbeddedResource Include="Skill\duoshan.JPG" />
+    <EmbeddedResource Include="Skill\erduan.JPG" />
+    <EmbeddedResource Include="Skill\fandan.JPG" />
+    <EmbeddedResource Include="Skill\fanji.JPG" />
+    <EmbeddedResource Include="Skill\fankang.JPG" />
+    <EmbeddedResource Include="Skill\fengdun.JPG" />
+    <EmbeddedResource Include="Skill\fengfu.JPG" />
+    <EmbeddedResource Include="Skill\fengshi.JPG" />
+    <EmbeddedResource Include="Skill\fenzhan.JPG" />
+    <EmbeddedResource Include="Skill\fulan.JPG" />
+    <EmbeddedResource Include="Skill\fuyin.JPG" />
+    <EmbeddedResource Include="Skill\fuyuan.JPG" />
+    <EmbeddedResource Include="Skill\fuzhi.JPG" />
+    <EmbeddedResource Include="Skill\gangmao.JPG" />
+    <EmbeddedResource Include="Skill\gangyin.JPG" />
+    <EmbeddedResource Include="Skill\ganran.JPG" />
+    <EmbeddedResource Include="Skill\gaofei.JPG" />
+    <EmbeddedResource Include="Skill\gedang.JPG" />
+    <EmbeddedResource Include="Skill\guangdun.JPG" />
+    <EmbeddedResource Include="Skill\guangjian.JPG" />
+    <EmbeddedResource Include="Skill\guangming.JPG" />
+    <EmbeddedResource Include="Skill\guangqiu.JPG" />
+    <EmbeddedResource Include="Skill\guantong.JPG" />
+    <EmbeddedResource Include="Skill\guimei.JPG" />
+    <EmbeddedResource Include="Skill\guimian.JPG" />
+    <EmbeddedResource Include="Skill\hanbing.JPG" />
+    <EmbeddedResource Include="Skill\hanqi.JPG" />
+    <EmbeddedResource Include="Skill\heian.JPG" />
+    <EmbeddedResource Include="Skill\houke.JPG" />
+    <EmbeddedResource Include="Skill\houyuan.JPG" />
+    <EmbeddedResource Include="Skill\huanhua.JPG" />
+    <EmbeddedResource Include="Skill\huigui.JPG" />
+    <EmbeddedResource Include="Skill\huikan.JPG" />
+    <EmbeddedResource Include="Skill\huimie.JPG" />
+    <EmbeddedResource Include="Skill\huiyu.JPG" />
+    <EmbeddedResource Include="Skill\hunan.JPG" />
+    <EmbeddedResource Include="Skill\hundun.JPG" />
+    <EmbeddedResource Include="Skill\hunluan.JPG" />
+    <EmbeddedResource Include="Skill\hunshou.JPG" />
+    <EmbeddedResource Include="Skill\huofeng.JPG" />
+    <EmbeddedResource Include="Skill\huomiao.JPG" />
+    <EmbeddedResource Include="Skill\huoqiu.JPG" />
+    <EmbeddedResource Include="Skill\huoren.JPG" />
+    <EmbeddedResource Include="Skill\jianci.JPG" />
+    <EmbeddedResource Include="Skill\jiangli.JPG" />
+    <EmbeddedResource Include="Skill\jianjiao.JPG" />
+    <EmbeddedResource Include="Skill\jiejie.JPG" />
+    <EmbeddedResource Include="Skill\jiejing.JPG" />
+    <EmbeddedResource Include="Skill\jiewang.JPG" />
+    <EmbeddedResource Include="Skill\jieyu.JPG" />
+    <EmbeddedResource Include="Skill\jiguan.JPG" />
+    <EmbeddedResource Include="Skill\jijie.JPG" />
+    <EmbeddedResource Include="Skill\jiliu.JPG" />
+    <EmbeddedResource Include="Skill\jinghua.JPG" />
+    <EmbeddedResource Include="Skill\jinglian.JPG" />
+    <EmbeddedResource Include="Skill\jinhua.JPG" />
+    <EmbeddedResource Include="Skill\jinu.JPG" />
+    <EmbeddedResource Include="Skill\jinzhuan.JPG" />
+    <EmbeddedResource Include="Skill\jipo.JPG" />
+    <EmbeddedResource Include="Skill\jiuwu.JPG" />
+    <EmbeddedResource Include="Skill\jiyun.JPG" />
+    <EmbeddedResource Include="Skill\juchui.JPG" />
+    <EmbeddedResource Include="Skill\juci.JPG" />
+    <EmbeddedResource Include="Skill\jujin.JPG" />
+    <EmbeddedResource Include="Skill\julong.JPG" />
+    <EmbeddedResource Include="Skill\jupao.JPG" />
+    <EmbeddedResource Include="Skill\juzu.JPG" />
+    <EmbeddedResource Include="Skill\kangdou.JPG" />
+    <EmbeddedResource Include="Skill\kanpo.JPG" />
+    <EmbeddedResource Include="Skill\kean.JPG" />
+    <EmbeddedResource Include="Skill\kebing.JPG" />
+    <EmbeddedResource Include="Skill\kedi.JPG" />
+    <EmbeddedResource Include="Skill\kefeng.JPG" />
+    <EmbeddedResource Include="Skill\keguang.JPG" />
+    <EmbeddedResource Include="Skill\kehuo.JPG" />
+    <EmbeddedResource Include="Skill\kelei.JPG" />
+    <EmbeddedResource Include="Skill\keshui.JPG" />
+    <EmbeddedResource Include="Skill\kongju.JPG" />
+    <EmbeddedResource Include="Skill\kongzhi.JPG" />
+    <EmbeddedResource Include="Skill\kuangre.JPG" />
+    <EmbeddedResource Include="Skill\kuangyao.JPG" />
+    <EmbeddedResource Include="Skill\langmo.JPG" />
+    <EmbeddedResource Include="Skill\leiren.JPG" />
+    <EmbeddedResource Include="Skill\liankan.JPG" />
+    <EmbeddedResource Include="Skill\liansuo.JPG" />
+    <EmbeddedResource Include="Skill\liaoya.JPG" />
+    <EmbeddedResource Include="Skill\lichang.JPG" />
+    <EmbeddedResource Include="Skill\lichi.JPG" />
+    <EmbeddedResource Include="Skill\lici.JPG" />
+    <EmbeddedResource Include="Skill\lieka.JPG" />
+    <EmbeddedResource Include="Skill\liesha.JPG" />
+    <EmbeddedResource Include="Skill\lijiao.JPG" />
+    <EmbeddedResource Include="Skill\lingqi.JPG" />
+    <EmbeddedResource Include="Skill\lingti.JPG" />
+    <EmbeddedResource Include="Skill\lingxiu.JPG" />
+    <EmbeddedResource Include="Skill\liufang.JPG" />
+    <EmbeddedResource Include="Skill\liuxue.JPG" />
+    <EmbeddedResource Include="Skill\liwu.JPG" />
+    <EmbeddedResource Include="Skill\luanren.JPG" />
+    <EmbeddedResource Include="Skill\lueduo.JPG" />
+    <EmbeddedResource Include="Skill\mabi.JPG" />
+    <EmbeddedResource Include="Skill\manli.JPG" />
+    <EmbeddedResource Include="Skill\meihuo.JPG" />
+    <EmbeddedResource Include="Skill\meijiu.JPG" />
+    <EmbeddedResource Include="Skill\mengkan.JPG" />
+    <EmbeddedResource Include="Skill\mihuo.JPG" />
+    <EmbeddedResource Include="Skill\mili.JPG" />
+    <EmbeddedResource Include="Skill\mitu.JPG" />
+    <EmbeddedResource Include="Skill\mojiao.JPG" />
+    <EmbeddedResource Include="Skill\mojing.JPG" />
+    <EmbeddedResource Include="Skill\mokang.JPG" />
+    <EmbeddedResource Include="Skill\momian.JPG" />
+    <EmbeddedResource Include="Skill\moyao.JPG" />
+    <EmbeddedResource Include="Skill\moyin.JPG" />
+    <EmbeddedResource Include="Skill\mozhua.JPG" />
+    <EmbeddedResource Include="Skill\nianli.JPG" />
+    <EmbeddedResource Include="Skill\nifeng.JPG" />
+    <EmbeddedResource Include="Skill\ningshi.JPG" />
+    <EmbeddedResource Include="Skill\nitai.JPG" />
+    <EmbeddedResource Include="Skill\niuqu.JPG" />
+    <EmbeddedResource Include="Skill\nulei.JPG" />
+    <EmbeddedResource Include="Skill\penhuo.JPG" />
+    <EmbeddedResource Include="Skill\pingzhang.JPG" />
+    <EmbeddedResource Include="Skill\pobai.JPG" />
+    <EmbeddedResource Include="Skill\pohuai.JPG" />
+    <EmbeddedResource Include="Skill\pojia.JPG" />
+    <EmbeddedResource Include="Skill\polie.JPG" />
+    <EmbeddedResource Include="Skill\pomie.JPG" />
+    <EmbeddedResource Include="Skill\qianfeng.JPG" />
+    <EmbeddedResource Include="Skill\qianshui.JPG" />
+    <EmbeddedResource Include="Skill\qingya.JPG" />
+    <EmbeddedResource Include="Skill\qingzhang.JPG" />
+    <EmbeddedResource Include="Skill\qinlue.JPG" />
+    <EmbeddedResource Include="Skill\qiya.JPG" />
+    <EmbeddedResource Include="Skill\quhun.JPG" />
+    <EmbeddedResource Include="Skill\quzhu.JPG" />
+    <EmbeddedResource Include="Skill\renci.JPG" />
+    <EmbeddedResource Include="Skill\renshang.JPG" />
+    <EmbeddedResource Include="Skill\riguang.JPG" />
+    <EmbeddedResource Include="Skill\ruodian.JPG" />
+    <EmbeddedResource Include="Skill\shachen.JPG" />
+    <EmbeddedResource Include="Skill\shanji.JPG" />
+    <EmbeddedResource Include="Skill\shehun.JPG" />
+    <EmbeddedResource Include="Skill\shengbing.JPG" />
+    <EmbeddedResource Include="Skill\shengfa.JPG" />
+    <EmbeddedResource Include="Skill\shengguang.JPG" />
+    <EmbeddedResource Include="Skill\shengguo.JPG" />
+    <EmbeddedResource Include="Skill\shengyin.JPG" />
+    <EmbeddedResource Include="Skill\shengzhang.JPG" />
+    <EmbeddedResource Include="Skill\shenshe.JPG" />
+    <EmbeddedResource Include="Skill\shenyu.JPG" />
+    <EmbeddedResource Include="Skill\sheshu.JPG" />
+    <EmbeddedResource Include="Skill\shibei.JPG" />
+    <EmbeddedResource Include="Skill\shidu.JPG" />
+    <EmbeddedResource Include="Skill\shidun.JPG" />
+    <EmbeddedResource Include="Skill\shihua.JPG" />
+    <EmbeddedResource Include="Skill\shiren.JPG" />
+    <EmbeddedResource Include="Skill\shouren.JPG" />
+    <EmbeddedResource Include="Skill\shouwang.JPG" />
+    <EmbeddedResource Include="Skill\shuailao.JPG" />
+    <EmbeddedResource Include="Skill\shuaiwei.JPG" />
+    <EmbeddedResource Include="Skill\shuidun.JPG" />
+    <EmbeddedResource Include="Skill\shuihu.JPG" />
+    <EmbeddedResource Include="Skill\shuimian.JPG" />
+    <EmbeddedResource Include="Skill\shuiren.JPG" />
+    <EmbeddedResource Include="Skill\shuixin.JPG" />
+    <EmbeddedResource Include="Skill\shuwang.JPG" />
+    <EmbeddedResource Include="Skill\tengman.JPG" />
+    <EmbeddedResource Include="Skill\tiandi.JPG" />
+    <EmbeddedResource Include="Skill\tingliu.JPG" />
+    <EmbeddedResource Include="Skill\toudao.JPG" />
+    <EmbeddedResource Include="Skill\tulong.JPG" />
+    <EmbeddedResource Include="Skill\tumo.JPG" />
+    <EmbeddedResource Include="Skill\wangyan.JPG" />
+    <EmbeddedResource Include="Skill\weiguang.JPG" />
+    <EmbeddedResource Include="Skill\weixia.JPG" />
+    <EmbeddedResource Include="Skill\weiyan.JPG" />
+    <EmbeddedResource Include="Skill\wudu.JPG" />
+    <EmbeddedResource Include="Skill\xiadong.JPG" />
+    <EmbeddedResource Include="Skill\xian.JPG" />
+    <EmbeddedResource Include="Skill\xianji.JPG" />
+    <EmbeddedResource Include="Skill\xianzhi.JPG" />
+    <EmbeddedResource Include="Skill\xiaodun.JPG" />
+    <EmbeddedResource Include="Skill\xiaoruo.JPG" />
+    <EmbeddedResource Include="Skill\xiaowang.JPG" />
+    <EmbeddedResource Include="Skill\xibing.JPG" />
+    <EmbeddedResource Include="Skill\xidi.JPG" />
+    <EmbeddedResource Include="Skill\xieqi.JPG" />
+    <EmbeddedResource Include="Skill\xifeng.JPG" />
+    <EmbeddedResource Include="Skill\xiguang.JPG" />
+    <EmbeddedResource Include="Skill\xihuo.JPG" />
+    <EmbeddedResource Include="Skill\xilei.JPG" />
+    <EmbeddedResource Include="Skill\xingyun.JPG" />
+    <EmbeddedResource Include="Skill\xinsheng.JPG" />
+    <EmbeddedResource Include="Skill\xionge.JPG" />
+    <EmbeddedResource Include="Skill\xishui.JPG" />
+    <EmbeddedResource Include="Skill\xixue.JPG" />
+    <EmbeddedResource Include="Skill\xuanfeng.JPG" />
+    <EmbeddedResource Include="Skill\xuanguang.JPG" />
+    <EmbeddedResource Include="Skill\xueji.JPG" />
+    <EmbeddedResource Include="Skill\xueshi.JPG" />
+    <EmbeddedResource Include="Skill\xuhua.JPG" />
+    <EmbeddedResource Include="Skill\xunfu.JPG" />
+    <EmbeddedResource Include="Skill\xunhua.JPG" />
+    <EmbeddedResource Include="Skill\xuwu.JPG" />
+    <EmbeddedResource Include="Skill\yandun.JPG" />
+    <EmbeddedResource Include="Skill\yangfen.JPG" />
+    <EmbeddedResource Include="Skill\yangliu.JPG" />
+    <EmbeddedResource Include="Skill\yanmie.JPG" />
+    <EmbeddedResource Include="Skill\yanren.JPG" />
+    <EmbeddedResource Include="Skill\yanti.JPG" />
+    <EmbeddedResource Include="Skill\yaohai.JPG" />
+    <EmbeddedResource Include="Skill\yese.JPG" />
+    <EmbeddedResource Include="Skill\yexing.JPG" />
+    <EmbeddedResource Include="Skill\yichan.JPG" />
+    <EmbeddedResource Include="Skill\yuanhen.JPG" />
+    <EmbeddedResource Include="Skill\yuanhu.JPG" />
+    <EmbeddedResource Include="Skill\yuanling.JPG" />
+    <EmbeddedResource Include="Skill\yuanquan.JPG" />
+    <EmbeddedResource Include="Skill\yuwang.JPG" />
+    <EmbeddedResource Include="Skill\zaihuo.JPG" />
+    <EmbeddedResource Include="Skill\zaisheng.JPG" />
+    <EmbeddedResource Include="Skill\zhaojia.JPG" />
+    <EmbeddedResource Include="Skill\zhenshou.JPG" />
+    <EmbeddedResource Include="Skill\zhentui.JPG" />
+    <EmbeddedResource Include="Skill\zhian.JPG" />
+    <EmbeddedResource Include="Skill\zhibing.JPG" />
+    <EmbeddedResource Include="Skill\zhidi.JPG" />
+    <EmbeddedResource Include="Skill\zhifeng.JPG" />
+    <EmbeddedResource Include="Skill\zhiguang.JPG" />
+    <EmbeddedResource Include="Skill\zhihuo.JPG" />
+    <EmbeddedResource Include="Skill\zhikong.JPG" />
+    <EmbeddedResource Include="Skill\zhilei.JPG" />
+    <EmbeddedResource Include="Skill\zhiliao.JPG" />
+    <EmbeddedResource Include="Skill\zhishui.JPG" />
+    <EmbeddedResource Include="Skill\zhizhuo.JPG" />
+    <EmbeddedResource Include="Skill\zhouyin.JPG" />
+    <EmbeddedResource Include="Skill\zhuore.JPG" />
+    <EmbeddedResource Include="Skill\zihui.JPG" />
+    <EmbeddedResource Include="Skill\zoule.JPG" />
+    <EmbeddedResource Include="Skill\zuzhou.JPG" />
+    <EmbeddedResource Include="Spell\1.JPG" />
+    <EmbeddedResource Include="Spell\10.JPG" />
+    <EmbeddedResource Include="Spell\100.JPG" />
+    <EmbeddedResource Include="Spell\101.JPG" />
+    <EmbeddedResource Include="Spell\11.JPG" />
+    <EmbeddedResource Include="Spell\12.JPG" />
+    <EmbeddedResource Include="Spell\13.JPG" />
+    <EmbeddedResource Include="Spell\14.JPG" />
+    <EmbeddedResource Include="Spell\15.JPG" />
+    <EmbeddedResource Include="Spell\16.JPG" />
+    <EmbeddedResource Include="Spell\17.JPG" />
+    <EmbeddedResource Include="Spell\18.JPG" />
+    <EmbeddedResource Include="Spell\19.JPG" />
+    <EmbeddedResource Include="Spell\2.JPG" />
+    <EmbeddedResource Include="Spell\20.JPG" />
+    <EmbeddedResource Include="Spell\21.JPG" />
+    <EmbeddedResource Include="Spell\22.JPG" />
+    <EmbeddedResource Include="Spell\23.JPG" />
+    <EmbeddedResource Include="Spell\24.JPG" />
+    <EmbeddedResource Include="Spell\25.JPG" />
+    <EmbeddedResource Include="Spell\26.JPG" />
+    <EmbeddedResource Include="Spell\27.JPG" />
+    <EmbeddedResource Include="Spell\28.JPG" />
+    <EmbeddedResource Include="Spell\29.JPG" />
+    <EmbeddedResource Include="Spell\3.JPG" />
+    <EmbeddedResource Include="Spell\30.JPG" />
+    <EmbeddedResource Include="Spell\31.JPG" />
+    <EmbeddedResource Include="Spell\32.JPG" />
+    <EmbeddedResource Include="Spell\33.JPG" />
+    <EmbeddedResource Include="Spell\34.JPG" />
+    <EmbeddedResource Include="Spell\35.JPG" />
+    <EmbeddedResource Include="Spell\36.JPG" />
+    <EmbeddedResource Include="Spell\37.JPG" />
+    <EmbeddedResource Include="Spell\38.JPG" />
+    <EmbeddedResource Include="Spell\39.JPG" />
+    <EmbeddedResource Include="Spell\4.JPG" />
+    <EmbeddedResource Include="Spell\40.JPG" />
+    <EmbeddedResource Include="Spell\41.JPG" />
+    <EmbeddedResource Include="Spell\42.JPG" />
+    <EmbeddedResource Include="Spell\43.JPG" />
+    <EmbeddedResource Include="Spell\44.JPG" />
+    <EmbeddedResource Include="Spell\45.JPG" />
+    <EmbeddedResource Include="Spell\46.JPG" />
+    <EmbeddedResource Include="Spell\47.JPG" />
+    <EmbeddedResource Include="Spell\48.JPG" />
+    <EmbeddedResource Include="Spell\49.JPG" />
+    <EmbeddedResource Include="Spell\5.JPG" />
+    <EmbeddedResource Include="Spell\50.JPG" />
+    <EmbeddedResource Include="Spell\51.JPG" />
+    <EmbeddedResource Include="Spell\52.JPG" />
+    <EmbeddedResource Include="Spell\53.JPG" />
+    <EmbeddedResource Include="Spell\54.JPG" />
+    <EmbeddedResource Include="Spell\55.JPG" />
+    <EmbeddedResource Include="Spell\56.JPG" />
+    <EmbeddedResource Include="Spell\57.JPG" />
+    <EmbeddedResource Include="Spell\58.JPG" />
+    <EmbeddedResource Include="Spell\59.JPG" />
+    <EmbeddedResource Include="Spell\6.JPG" />
+    <EmbeddedResource Include="Spell\60.JPG" />
+    <EmbeddedResource Include="Spell\61.JPG" />
+    <EmbeddedResource Include="Spell\62.JPG" />
+    <EmbeddedResource Include="Spell\63.JPG" />
+    <EmbeddedResource Include="Spell\64.JPG" />
+    <EmbeddedResource Include="Spell\65.JPG" />
+    <EmbeddedResource Include="Spell\66.JPG" />
+    <EmbeddedResource Include="Spell\67.JPG" />
+    <EmbeddedResource Include="Spell\68.JPG" />
+    <EmbeddedResource Include="Spell\69.JPG" />
+    <EmbeddedResource Include="Spell\7.JPG" />
+    <EmbeddedResource Include="Spell\70.JPG" />
+    <EmbeddedResource Include="Spell\71.JPG" />
+    <EmbeddedResource Include="Spell\72.JPG" />
+    <EmbeddedResource Include="Spell\73.JPG" />
+    <EmbeddedResource Include="Spell\74.JPG" />
+    <EmbeddedResource Include="Spell\75.JPG" />
+    <EmbeddedResource Include="Spell\76.JPG" />
+    <EmbeddedResource Include="Spell\77.JPG" />
+    <EmbeddedResource Include="Spell\78.JPG" />
+    <EmbeddedResource Include="Spell\79.JPG" />
+    <EmbeddedResource Include="Spell\8.JPG" />
+    <EmbeddedResource Include="Spell\80.JPG" />
+    <EmbeddedResource Include="Spell\81.JPG" />
+    <EmbeddedResource Include="Spell\82.JPG" />
+    <EmbeddedResource Include="Spell\83.JPG" />
+    <EmbeddedResource Include="Spell\84.JPG" />
+    <EmbeddedResource Include="Spell\85.JPG" />
+    <EmbeddedResource Include="Spell\86.JPG" />
+    <EmbeddedResource Include="Spell\87.JPG" />
+    <EmbeddedResource Include="Spell\88.JPG" />
+    <EmbeddedResource Include="Spell\89.JPG" />
+    <EmbeddedResource Include="Spell\9.JPG" />
+    <EmbeddedResource Include="Spell\90.JPG" />
+    <EmbeddedResource Include="Spell\91.JPG" />
+    <EmbeddedResource Include="Spell\92.JPG" />
+    <EmbeddedResource Include="Spell\93.JPG" />
+    <EmbeddedResource Include="Spell\94.JPG" />
+    <EmbeddedResource Include="Spell\95.JPG" />
+    <EmbeddedResource Include="Spell\96.JPG" />
+    <EmbeddedResource Include="Spell\97.JPG" />
+    <EmbeddedResource Include="Spell\98.JPG" />
+    <EmbeddedResource Include="Spell\99.JPG" />
+    <EmbeddedResource Include="System\AchieveBack.JPG" />
+    <EmbeddedResource Include="System\BattleResultBack.JPG" />
+    <EmbeddedResource Include="System\CancelButton.JPG" />
+    <EmbeddedResource Include="System\CancelButtonOn.JPG" />
+    <EmbeddedResource Include="System\CardBack.JPG" />
+    <EmbeddedResource Include="System\CardBack2.JPG" />
+    <EmbeddedResource Include="System\CardPage.PNG" />
+    <EmbeddedResource Include="System\CloseButton1.JPG" />
+    <EmbeddedResource Include="System\CloseButton2.JPG" />
+    <EmbeddedResource Include="System\DelButton.JPG" />
+    <EmbeddedResource Include="System\DelButtonOn.JPG" />
+    <EmbeddedResource Include="System\DownButton.JPG" />
+    <EmbeddedResource Include="System\DownButtonOn.JPG" />
+    <EmbeddedResource Include="System\EquipBack1.JPG" />
+    <EmbeddedResource Include="System\EquipBack2.JPG" />
+    <EmbeddedResource Include="System\EquipBack3.JPG" />
+    <EmbeddedResource Include="System\EquipBack4.JPG" />
+    <EmbeddedResource Include="System\EquipBack5.JPG" />
+    <EmbeddedResource Include="System\EquipBack6.JPG" />
+    <EmbeddedResource Include="System\EquipBack7.JPG" />
+    <EmbeddedResource Include="System\EquipBack8.JPG" />
+    <EmbeddedResource Include="System\EquipBack9.JPG" />
+    <EmbeddedResource Include="System\ItemBackDown.JPG" />
+    <EmbeddedResource Include="System\ItemGrid.JPG" />
+    <EmbeddedResource Include="System\LearnButton.JPG" />
+    <EmbeddedResource Include="System\LearnButtonOn.JPG" />
+    <EmbeddedResource Include="System\LeftButton.JPG" />
+    <EmbeddedResource Include="System\LeftButtonOn.JPG" />
+    <EmbeddedResource Include="System\LifeBack.JPG" />
+    <EmbeddedResource Include="System\LogBack.JPG" />
+    <EmbeddedResource Include="System\MagicBookBack.JPG" />
+    <EmbeddedResource Include="System\MainBottom.JPG" />
+    <EmbeddedResource Include="System\MainTop.JPG" />
+    <EmbeddedResource Include="System\Mark3.PNG" />
+    <EmbeddedResource Include="System\Mark2.PNG" />
+    <EmbeddedResource Include="System\MarkNew.PNG" />
+    <EmbeddedResource Include="System\Mark1.PNG" />
+    <EmbeddedResource Include="System\Mark4.PNG" />
+    <EmbeddedResource Include="System\Mark5.PNG" />
+    <EmbeddedResource Include="System\MarkSelect.PNG" />
+    <EmbeddedResource Include="System\MarkTaskBegin.PNG" />
+    <EmbeddedResource Include="System\MarkTaskEnd.PNG" />
+    <EmbeddedResource Include="System\MergeTable.JPG" />
+    <EmbeddedResource Include="System\MiniBack.PNG" />
+    <EmbeddedResource Include="System\NextButton.JPG" />
+    <EmbeddedResource Include="System\NextButtonOn.JPG" />
+    <EmbeddedResource Include="System\PlusButton.JPG" />
+    <EmbeddedResource Include="System\PlusButtonOn.JPG" />
+    <EmbeddedResource Include="System\PreButton.JPG" />
+    <EmbeddedResource Include="System\PreButtonOn.JPG" />
+    <EmbeddedResource Include="System\RightButton.JPG" />
+    <EmbeddedResource Include="System\RightButtonOn.JPG" />
+    <EmbeddedResource Include="System\ShopItemBack.JPG" />
+    <EmbeddedResource Include="System\SortButton.JPG" />
+    <EmbeddedResource Include="System\SortButtonOn.JPG" />
+    <EmbeddedResource Include="System\TalkBack.PNG" />
+    <EmbeddedResource Include="System\TaskResultBack.JPG" />
+    <EmbeddedResource Include="System\UpButton.JPG" />
+    <EmbeddedResource Include="System\UpButtonOn.JPG" />
+    <EmbeddedResource Include="System\Win.PNG" />
+    <EmbeddedResource Include="Tiles\1.JPG" />
+    <EmbeddedResource Include="Tiles\2.JPG" />
+    <EmbeddedResource Include="Tiles\3.JPG" />
+    <EmbeddedResource Include="Tiles\4.JPG" />
+    <EmbeddedResource Include="Tiles\5.JPG" />
+    <EmbeddedResource Include="Tiles\6.JPG" />
+    <EmbeddedResource Include="Tiles\7.JPG" />
+    <EmbeddedResource Include="Tiles\8.JPG" />
+    <EmbeddedResource Include="Tiles\9.JPG" />
+    <EmbeddedResource Include="Weapon\1.JPG" />
+    <EmbeddedResource Include="Weapon\10.JPG" />
+    <EmbeddedResource Include="Weapon\100.JPG" />
+    <EmbeddedResource Include="Weapon\101.JPG" />
+    <EmbeddedResource Include="Weapon\102.JPG" />
+    <EmbeddedResource Include="Weapon\103.JPG" />
+    <EmbeddedResource Include="Weapon\104.JPG" />
+    <EmbeddedResource Include="Weapon\105.JPG" />
+    <EmbeddedResource Include="Weapon\106.JPG" />
+    <EmbeddedResource Include="Weapon\107.JPG" />
+    <EmbeddedResource Include="Weapon\108.JPG" />
+    <EmbeddedResource Include="Weapon\109.JPG" />
+    <EmbeddedResource Include="Weapon\11.JPG" />
+    <EmbeddedResource Include="Weapon\110.JPG" />
+    <EmbeddedResource Include="Weapon\111.JPG" />
+    <EmbeddedResource Include="Weapon\112.JPG" />
+    <EmbeddedResource Include="Weapon\113.JPG" />
+    <EmbeddedResource Include="Weapon\114.JPG" />
+    <EmbeddedResource Include="Weapon\115.JPG" />
+    <EmbeddedResource Include="Weapon\116.JPG" />
+    <EmbeddedResource Include="Weapon\117.JPG" />
+    <EmbeddedResource Include="Weapon\12.JPG" />
+    <EmbeddedResource Include="Weapon\13.JPG" />
+    <EmbeddedResource Include="Weapon\14.JPG" />
+    <EmbeddedResource Include="Weapon\15.JPG" />
+    <EmbeddedResource Include="Weapon\16.JPG" />
+    <EmbeddedResource Include="Weapon\17.JPG" />
+    <EmbeddedResource Include="Weapon\18.JPG" />
+    <EmbeddedResource Include="Weapon\19.JPG" />
+    <EmbeddedResource Include="Weapon\2.JPG" />
+    <EmbeddedResource Include="Weapon\20.JPG" />
+    <EmbeddedResource Include="Weapon\21.JPG" />
+    <EmbeddedResource Include="Weapon\22.JPG" />
+    <EmbeddedResource Include="Weapon\23.JPG" />
+    <EmbeddedResource Include="Weapon\24.JPG" />
+    <EmbeddedResource Include="Weapon\25.JPG" />
+    <EmbeddedResource Include="Weapon\26.JPG" />
+    <EmbeddedResource Include="Weapon\27.JPG" />
+    <EmbeddedResource Include="Weapon\28.JPG" />
+    <EmbeddedResource Include="Weapon\29.JPG" />
+    <EmbeddedResource Include="Weapon\3.JPG" />
+    <EmbeddedResource Include="Weapon\30.JPG" />
+    <EmbeddedResource Include="Weapon\31.JPG" />
+    <EmbeddedResource Include="Weapon\32.JPG" />
+    <EmbeddedResource Include="Weapon\33.JPG" />
+    <EmbeddedResource Include="Weapon\34.JPG" />
+    <EmbeddedResource Include="Weapon\35.JPG" />
+    <EmbeddedResource Include="Weapon\36.JPG" />
+    <EmbeddedResource Include="Weapon\37.JPG" />
+    <EmbeddedResource Include="Weapon\38.JPG" />
+    <EmbeddedResource Include="Weapon\39.JPG" />
+    <EmbeddedResource Include="Weapon\4.JPG" />
+    <EmbeddedResource Include="Weapon\40.JPG" />
+    <EmbeddedResource Include="Weapon\41.JPG" />
+    <EmbeddedResource Include="Weapon\42.JPG" />
+    <EmbeddedResource Include="Weapon\43.JPG" />
+    <EmbeddedResource Include="Weapon\44.JPG" />
+    <EmbeddedResource Include="Weapon\45.JPG" />
+    <EmbeddedResource Include="Weapon\46.JPG" />
+    <EmbeddedResource Include="Weapon\47.JPG" />
+    <EmbeddedResource Include="Weapon\48.JPG" />
+    <EmbeddedResource Include="Weapon\49.JPG" />
+    <EmbeddedResource Include="Weapon\5.JPG" />
+    <EmbeddedResource Include="Weapon\50.JPG" />
+    <EmbeddedResource Include="Weapon\51.JPG" />
+    <EmbeddedResource Include="Weapon\52.JPG" />
+    <EmbeddedResource Include="Weapon\53.JPG" />
+    <EmbeddedResource Include="Weapon\54.JPG" />
+    <EmbeddedResource Include="Weapon\55.JPG" />
+    <EmbeddedResource Include="Weapon\56.JPG" />
+    <EmbeddedResource Include="Weapon\57.JPG" />
+    <EmbeddedResource Include="Weapon\58.JPG" />
+    <EmbeddedResource Include="Weapon\59.JPG" />
+    <EmbeddedResource Include="Weapon\6.JPG" />
+    <EmbeddedResource Include="Weapon\60.JPG" />
+    <EmbeddedResource Include="Weapon\61.JPG" />
+    <EmbeddedResource Include="Weapon\62.JPG" />
+    <EmbeddedResource Include="Weapon\63.JPG" />
+    <EmbeddedResource Include="Weapon\64.JPG" />
+    <EmbeddedResource Include="Weapon\65.JPG" />
+    <EmbeddedResource Include="Weapon\66.JPG" />
+    <EmbeddedResource Include="Weapon\67.JPG" />
+    <EmbeddedResource Include="Weapon\68.JPG" />
+    <EmbeddedResource Include="Weapon\69.JPG" />
+    <EmbeddedResource Include="Weapon\7.JPG" />
+    <EmbeddedResource Include="Weapon\70.JPG" />
+    <EmbeddedResource Include="Weapon\71.JPG" />
+    <EmbeddedResource Include="Weapon\72.JPG" />
+    <EmbeddedResource Include="Weapon\73.JPG" />
+    <EmbeddedResource Include="Weapon\74.JPG" />
+    <EmbeddedResource Include="Weapon\75.JPG" />
+    <EmbeddedResource Include="Weapon\76.JPG" />
+    <EmbeddedResource Include="Weapon\77.JPG" />
+    <EmbeddedResource Include="Weapon\78.JPG" />
+    <EmbeddedResource Include="Weapon\79.JPG" />
+    <EmbeddedResource Include="Weapon\8.JPG" />
+    <EmbeddedResource Include="Weapon\80.JPG" />
+    <EmbeddedResource Include="Weapon\81.JPG" />
+    <EmbeddedResource Include="Weapon\82.JPG" />
+    <EmbeddedResource Include="Weapon\83.JPG" />
+    <EmbeddedResource Include="Weapon\84.JPG" />
+    <EmbeddedResource Include="Weapon\85.JPG" />
+    <EmbeddedResource Include="Weapon\86.JPG" />
+    <EmbeddedResource Include="Weapon\87.JPG" />
+    <EmbeddedResource Include="Weapon\88.JPG" />
+    <EmbeddedResource Include="Weapon\89.JPG" />
+    <EmbeddedResource Include="Weapon\9.JPG" />
+    <EmbeddedResource Include="Weapon\90.JPG" />
+    <EmbeddedResource Include="Weapon\91.JPG" />
+    <EmbeddedResource Include="Weapon\92.JPG" />
+    <EmbeddedResource Include="Weapon\93.JPG" />
+    <EmbeddedResource Include="Weapon\94.JPG" />
+    <EmbeddedResource Include="Weapon\95.JPG" />
+    <EmbeddedResource Include="Weapon\96.JPG" />
+    <EmbeddedResource Include="Weapon\97.JPG" />
+    <EmbeddedResource Include="Weapon\98.JPG" />
+    <EmbeddedResource Include="Weapon\99.JPG" />
+    <EmbeddedResource Include="People\mogu.PNG" />
+    <EmbeddedResource Include="People\xiezi.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="People\element1.PNG" />
+    <EmbeddedResource Include="People\element2.PNG" />
+    <EmbeddedResource Include="People\element3.PNG" />
+    <EmbeddedResource Include="People\element4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="People\chick.PNG" />
+    <EmbeddedResource Include="People\frog.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="People\honglang.PNG" />
+    <EmbeddedResource Include="People\shijiu.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="People\goblin.PNG" />
+    <EmbeddedResource Include="People\shujin.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="People\honglong.PNG" />
+    <EmbeddedResource Include="People\shita.PNG" />
+    <EmbeddedResource Include="People\xixuegui.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="People\lanlong.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="People\zilong.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="People\fdemon.PNG" />
+    <EmbeddedResource Include="People\hydra.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="People\soul.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="People\langren.PNG" />
+    <EmbeddedResource Include="People\laohu.PNG" />
+    <EmbeddedResource Include="People\qingting.PNG" />
+    <EmbeddedResource Include="People\xiyiren.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Maze\ruin.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="NPC\ruin.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Item\shenzheyiwu.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Equip\xianglian11.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\SideButton4.PNG" />
+    <EmbeddedResource Include="Button\SideButton4On.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\AutoFightButton.JPG" />
+    <EmbeddedResource Include="Button\AutoFightButtonOn.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\AutoFightButton2.JPG" />
+    <EmbeddedResource Include="Button\AutoFightButton2On.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\SideButton5.PNG" />
+    <EmbeddedResource Include="Button\SideButton5On.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\MapButton3.PNG" />
+    <EmbeddedResource Include="Button\MapButton3On.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Item\tihuodan.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Item\jingyandan.JPG" />
+    <EmbeddedResource Include="Item\jinqiandan.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Item\tanbaodan.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="People\narsas.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Item\narsas.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="People\narlon.PNG" />
+    <EmbeddedResource Include="People\viga.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Item\narlon.JPG" />
+    <EmbeddedResource Include="Item\viga.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="People\frik.PNG" />
+    <EmbeddedResource Include="People\viktor.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Item\frik.JPG" />
+    <EmbeddedResource Include="Item\viktor.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="People\cai.PNG" />
+    <EmbeddedResource Include="People\clab.PNG" />
+    <EmbeddedResource Include="People\lock.PNG" />
+    <EmbeddedResource Include="People\shera.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Item\cai.JPG" />
+    <EmbeddedResource Include="Item\clab.JPG" />
+    <EmbeddedResource Include="Item\lock.JPG" />
+    <EmbeddedResource Include="Item\shera.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Spell\102.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Effect\171.PNG" />
+    <EmbeddedResource Include="Effect\172.PNG" />
+    <EmbeddedResource Include="Effect\173.PNG" />
+    <EmbeddedResource Include="Effect\174.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Spell\103.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Buff\eclipse.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Buff\gravity.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Spell\104.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Effect\175.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon\abl1.PNG" />
+    <EmbeddedResource Include="Icon\abl2.PNG" />
+    <EmbeddedResource Include="Icon\abl3.PNG" />
+    <EmbeddedResource Include="Icon\abl4.PNG" />
+    <EmbeddedResource Include="Icon\abl5.PNG" />
+    <EmbeddedResource Include="Icon\abl6.PNG" />
+    <EmbeddedResource Include="Icon\abl7.PNG" />
+    <EmbeddedResource Include="Icon\abl8.PNG" />
+    <EmbeddedResource Include="Icon\abl9.PNG" />
+    <EmbeddedResource Include="Icon\atd1.PNG" />
+    <EmbeddedResource Include="Icon\atd2.PNG" />
+    <EmbeddedResource Include="Icon\atd3.PNG" />
+    <EmbeddedResource Include="Icon\atd4.PNG" />
+    <EmbeddedResource Include="Icon\atd5.PNG" />
+    <EmbeddedResource Include="Icon\atd6.PNG" />
+    <EmbeddedResource Include="Icon\atd7.PNG" />
+    <EmbeddedResource Include="Icon\atd8.PNG" />
+    <EmbeddedResource Include="Icon\atr0.PNG" />
+    <EmbeddedResource Include="Icon\atr1.PNG" />
+    <EmbeddedResource Include="Icon\atr2.PNG" />
+    <EmbeddedResource Include="Icon\atr3.PNG" />
+    <EmbeddedResource Include="Icon\atr4.PNG" />
+    <EmbeddedResource Include="Icon\atr5.PNG" />
+    <EmbeddedResource Include="Icon\atr6.PNG" />
+    <EmbeddedResource Include="Icon\atr7.PNG" />
+    <EmbeddedResource Include="Icon\atr8.PNG" />
+    <EmbeddedResource Include="Icon\cad1.PNG" />
+    <EmbeddedResource Include="Icon\cad2.PNG" />
+    <EmbeddedResource Include="Icon\cad3.PNG" />
+    <EmbeddedResource Include="Icon\cad4.PNG" />
+    <EmbeddedResource Include="Icon\cup1.PNG" />
+    <EmbeddedResource Include="Icon\cup2.PNG" />
+    <EmbeddedResource Include="Icon\cup3.PNG" />
+    <EmbeddedResource Include="Icon\npc1.PNG" />
+    <EmbeddedResource Include="Icon\npc2.PNG" />
+    <EmbeddedResource Include="Icon\npc3.PNG" />
+    <EmbeddedResource Include="Icon\npc4.PNG" />
+    <EmbeddedResource Include="Icon\npc5.PNG" />
+    <EmbeddedResource Include="Icon\npc6.PNG" />
+    <EmbeddedResource Include="Icon\rac1.PNG" />
+    <EmbeddedResource Include="Icon\rac10.PNG" />
+    <EmbeddedResource Include="Icon\rac11.PNG" />
+    <EmbeddedResource Include="Icon\rac12.PNG" />
+    <EmbeddedResource Include="Icon\rac13.PNG" />
+    <EmbeddedResource Include="Icon\rac14.PNG" />
+    <EmbeddedResource Include="Icon\rac15.PNG" />
+    <EmbeddedResource Include="Icon\rac2.PNG" />
+    <EmbeddedResource Include="Icon\rac3.PNG" />
+    <EmbeddedResource Include="Icon\rac4.PNG" />
+    <EmbeddedResource Include="Icon\rac5.PNG" />
+    <EmbeddedResource Include="Icon\rac6.PNG" />
+    <EmbeddedResource Include="Icon\rac7.PNG" />
+    <EmbeddedResource Include="Icon\rac8.PNG" />
+    <EmbeddedResource Include="Icon\rac9.PNG" />
+    <EmbeddedResource Include="Icon\res1.PNG" />
+    <EmbeddedResource Include="Icon\res2.PNG" />
+    <EmbeddedResource Include="Icon\res3.PNG" />
+    <EmbeddedResource Include="Icon\res4.PNG" />
+    <EmbeddedResource Include="Icon\res5.PNG" />
+    <EmbeddedResource Include="Icon\res6.PNG" />
+    <EmbeddedResource Include="Icon\res7.PNG" />
+    <EmbeddedResource Include="Icon\res8.PNG" />
+    <EmbeddedResource Include="Icon\spl1.PNG" />
+    <EmbeddedResource Include="Icon\spl2.PNG" />
+    <EmbeddedResource Include="Icon\spl3.PNG" />
+    <EmbeddedResource Include="Icon\spl4.PNG" />
+    <EmbeddedResource Include="Icon\tsk1.PNG" />
+    <EmbeddedResource Include="Icon\tsk2.PNG" />
+    <EmbeddedResource Include="Icon\tsk3.PNG" />
+    <EmbeddedResource Include="Icon\tsk4.PNG" />
+    <EmbeddedResource Include="Icon\tsk5.PNG" />
+    <EmbeddedResource Include="Icon\tsk6.PNG" />
+    <EmbeddedResource Include="Icon\tsk7.PNG" />
+    <EmbeddedResource Include="Icon\tsk8.PNG" />
+    <EmbeddedResource Include="Icon\wed1.PNG" />
+    <EmbeddedResource Include="Icon\wed2.PNG" />
+    <EmbeddedResource Include="Icon\wed3.PNG" />
+    <EmbeddedResource Include="Icon\wed4.PNG" />
+    <EmbeddedResource Include="Icon\wep1.PNG" />
+    <EmbeddedResource Include="Icon\wep2.PNG" />
+    <EmbeddedResource Include="Icon\wep3.PNG" />
+    <EmbeddedResource Include="Icon\wep4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon\rac0.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon\npc7.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MiniGame\t1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\AddLogButton.JPG" />
+    <EmbeddedResource Include="Button\AddLogButtonOn.JPG" />
+    <EmbeddedResource Include="Button\GetOutButton.JPG" />
+    <EmbeddedResource Include="Button\GetOutButtonOn.JPG" />
+    <EmbeddedResource Include="Move\chick.PNG" />
+    <EmbeddedResource Include="Move\element1.PNG" />
+    <EmbeddedResource Include="Move\element2.PNG" />
+    <EmbeddedResource Include="Move\element3.PNG" />
+    <EmbeddedResource Include="Move\element4.PNG" />
+    <EmbeddedResource Include="Move\fdemon.PNG" />
+    <EmbeddedResource Include="Move\feichong.PNG" />
+    <EmbeddedResource Include="Move\frog.PNG" />
+    <EmbeddedResource Include="Move\goblin.PNG" />
+    <EmbeddedResource Include="Move\honglang.PNG" />
+    <EmbeddedResource Include="Move\honglong.PNG" />
+    <EmbeddedResource Include="Move\hydra.PNG" />
+    <EmbeddedResource Include="Move\jiangshi.PNG" />
+    <EmbeddedResource Include="Move\kulou.PNG" />
+    <EmbeddedResource Include="Move\kuloufashi.PNG" />
+    <EmbeddedResource Include="Move\lang.PNG" />
+    <EmbeddedResource Include="Move\langren.PNG" />
+    <EmbeddedResource Include="Move\lanlong.PNG" />
+    <EmbeddedResource Include="Move\laohu.PNG" />
+    <EmbeddedResource Include="Move\mogu.PNG" />
+    <EmbeddedResource Include="Move\qingting.PNG" />
+    <EmbeddedResource Include="Move\laoshu.PNG" />
+    <EmbeddedResource Include="Move\shijiu.PNG" />
+    <EmbeddedResource Include="Move\shita.PNG" />
+    <EmbeddedResource Include="Move\shuishashou.PNG" />
+    <EmbeddedResource Include="Move\shujin.PNG" />
+    <EmbeddedResource Include="Move\soul.PNG" />
+    <EmbeddedResource Include="Move\wuya.PNG" />
+    <EmbeddedResource Include="Move\xiezi.PNG" />
+    <EmbeddedResource Include="Move\xixuegui.PNG" />
+    <EmbeddedResource Include="Move\xiyiren.PNG" />
+    <EmbeddedResource Include="Move\youling.PNG" />
+    <EmbeddedResource Include="Move\zilong.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Move\res1.PNG" />
+    <EmbeddedResource Include="Move\res2.PNG" />
+    <EmbeddedResource Include="Move\res3.PNG" />
+    <EmbeddedResource Include="Move\res4.PNG" />
+    <EmbeddedResource Include="Move\res5.PNG" />
+    <EmbeddedResource Include="Move\res6.PNG" />
+    <EmbeddedResource Include="Move\res7.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="NPC\aisiter.PNG" />
+    <EmbeddedResource Include="NPC\aolai.PNG" />
+    <EmbeddedResource Include="NPC\artrom.PNG" />
+    <EmbeddedResource Include="NPC\baludi.PNG" />
+    <EmbeddedResource Include="NPC\beilukai.PNG" />
+    <EmbeddedResource Include="NPC\cai.PNG" />
+    <EmbeddedResource Include="NPC\cheng.PNG" />
+    <EmbeddedResource Include="NPC\clab.PNG" />
+    <EmbeddedResource Include="NPC\frik.PNG" />
+    <EmbeddedResource Include="NPC\gailu.PNG" />
+    <EmbeddedResource Include="NPC\haima.PNG" />
+    <EmbeddedResource Include="NPC\kedi.PNG" />
+    <EmbeddedResource Include="NPC\lakar.PNG" />
+    <EmbeddedResource Include="NPC\leiluo.PNG" />
+    <EmbeddedResource Include="NPC\lock.PNG" />
+    <EmbeddedResource Include="NPC\luka.PNG" />
+    <EmbeddedResource Include="NPC\masha.PNG" />
+    <EmbeddedResource Include="NPC\milanda.PNG" />
+    <EmbeddedResource Include="NPC\nanami.PNG" />
+    <EmbeddedResource Include="NPC\narlon.PNG" />
+    <EmbeddedResource Include="NPC\narsas.PNG" />
+    <EmbeddedResource Include="NPC\neifuni.PNG" />
+    <EmbeddedResource Include="NPC\node.PNG" />
+    <EmbeddedResource Include="NPC\saen.PNG" />
+    <EmbeddedResource Include="NPC\saibasi.PNG" />
+    <EmbeddedResource Include="NPC\sainisi.PNG" />
+    <EmbeddedResource Include="NPC\shera.PNG" />
+    <EmbeddedResource Include="NPC\tanisi.PNG" />
+    <EmbeddedResource Include="NPC\viga.PNG" />
+    <EmbeddedResource Include="NPC\viktor.PNG" />
+    <EmbeddedResource Include="NPC\warp.PNG" />
+    <EmbeddedResource Include="NPC\warperr.PNG" />
+    <EmbeddedResource Include="NPC\weia.PNG" />
+    <EmbeddedResource Include="NPC\youqi.PNG" />
+    <EmbeddedResource Include="NPC\yuexiuya.PNG" />
+    <EmbeddedResource Include="NPC\zeno.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Equip\toukui28.JPG" />
+    <EmbeddedResource Include="Equip\xianglian12.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Equip\hudun26.JPG" />
+    <EmbeddedResource Include="Equip\hujia28.JPG" />
+    <EmbeddedResource Include="Equip\jiezhi10.JPG" />
+    <EmbeddedResource Include="Equip\toukui29.JPG" />
+    <EmbeddedResource Include="Equip\wuqi28.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="System\HeroBackNew1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\MainIcon1On.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Hero\1f.JPG" />
+    <EmbeddedResource Include="Hero\1m.JPG" />
+    <EmbeddedResource Include="Hero\2f.JPG" />
+    <EmbeddedResource Include="Hero\2m.JPG" />
+    <EmbeddedResource Include="Hero\3f.JPG" />
+    <EmbeddedResource Include="Hero\3m.JPG" />
+    <EmbeddedResource Include="Hero\4f.JPG" />
+    <EmbeddedResource Include="Hero\4m.JPG" />
+    <EmbeddedResource Include="Hero\5f.JPG" />
+    <EmbeddedResource Include="Hero\5m.JPG" />
+    <EmbeddedResource Include="Hero\6f.JPG" />
+    <EmbeddedResource Include="Hero\6m.JPG" />
+    <EmbeddedResource Include="Hero\7f.JPG" />
+    <EmbeddedResource Include="Hero\7m.JPG" />
+    <EmbeddedResource Include="Hero\8f.JPG" />
+    <EmbeddedResource Include="Hero\8m.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon\hatt1.PNG" />
+    <EmbeddedResource Include="Icon\hatt2.PNG" />
+    <EmbeddedResource Include="Icon\hatt3.PNG" />
+    <EmbeddedResource Include="Icon\hatt4.PNG" />
+    <EmbeddedResource Include="Icon\hatt5.PNG" />
+    <EmbeddedResource Include="Icon\hatt6.PNG" />
+    <EmbeddedResource Include="Icon\hatt7.PNG" />
+    <EmbeddedResource Include="Icon\hatt8.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="HeroSkill\skill1.JPG" />
+    <EmbeddedResource Include="HeroSkill\skill10.JPG" />
+    <EmbeddedResource Include="HeroSkill\skill11.JPG" />
+    <EmbeddedResource Include="HeroSkill\skill12.JPG" />
+    <EmbeddedResource Include="HeroSkill\skill13.JPG" />
+    <EmbeddedResource Include="HeroSkill\skill2.JPG" />
+    <EmbeddedResource Include="HeroSkill\skill3.JPG" />
+    <EmbeddedResource Include="HeroSkill\skill4.JPG" />
+    <EmbeddedResource Include="HeroSkill\skill5.JPG" />
+    <EmbeddedResource Include="HeroSkill\skill6.JPG" />
+    <EmbeddedResource Include="HeroSkill\skill7.JPG" />
+    <EmbeddedResource Include="HeroSkill\skill8.JPG" />
+    <EmbeddedResource Include="HeroSkill\skill9.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\LevelButton.JPG" />
+    <EmbeddedResource Include="Button\LevelButtonOn.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\zhongjia.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\tandun.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\juejue.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\zhuixi.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\tiaobi.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\yupan.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\rensen.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\shemo.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\laolian.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\xuexi.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\sudi.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\dlhong.JPG" />
+    <EmbeddedResource Include="Skill\dlhuang.JPG" />
+    <EmbeddedResource Include="Skill\dllan.JPG" />
+    <EmbeddedResource Include="Skill\dlliu.JPG" />
+    <EmbeddedResource Include="Skill\dlshui.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\dibing.JPG" />
+    <EmbeddedResource Include="Skill\guangan.JPG" />
+    <EmbeddedResource Include="Skill\shuifeng.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="People\aistear.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Item\aistear.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Spell\105.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Spell\106.JPG" />
+    <EmbeddedResource Include="Spell\107.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Spell\108.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Spell\109.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Spell\110.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Spell\111.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Spell\112.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Buff\eye.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Spell\113.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Spell\114.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Spell\115.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Spell\116.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="System\TaskButton.JPG" />
+    <EmbeddedResource Include="System\TaskButtonOn.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="System\DeckChoose.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\SideButton6.PNG" />
+    <EmbeddedResource Include="Button\SideButton6On.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="System\FreshButton.JPG" />
+    <EmbeddedResource Include="System\FreshButtonOn.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Item\fuwen1.JPG" />
+    <EmbeddedResource Include="Item\fuwen10.JPG" />
+    <EmbeddedResource Include="Item\fuwen2.JPG" />
+    <EmbeddedResource Include="Item\fuwen3.JPG" />
+    <EmbeddedResource Include="Item\fuwen4.JPG" />
+    <EmbeddedResource Include="Item\fuwen5.JPG" />
+    <EmbeddedResource Include="Item\fuwen6.JPG" />
+    <EmbeddedResource Include="Item\fuwen7.JPG" />
+    <EmbeddedResource Include="Item\fuwen8.JPG" />
+    <EmbeddedResource Include="Item\fuwen9.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Effect\176.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Effect\177.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Effect\16.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Effect\17.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Effect\18.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Effect\153.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Effect\132.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Effect\59.PNG" />
+    <EmbeddedResource Include="Effect\60.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MiniGame\t2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="People\mirror.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Effect\121.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="System\Null.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="System\SearchBack.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Effect\178.PNG" />
+    <EmbeddedResource Include="Effect\179.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Effect\107.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Effect\167.PNG" />
+    <EmbeddedResource Include="Effect\168.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Effect\61.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Effect\122.PNG" />
+    <EmbeddedResource Include="Effect\123.PNG" />
+    <EmbeddedResource Include="Effect\124.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\zhongji1.JPG" />
+    <EmbeddedResource Include="Skill\zhongji2.JPG" />
+    <EmbeddedResource Include="Skill\zhongji3.JPG" />
+    <EmbeddedResource Include="Skill\zhongji4.JPG" />
+    <EmbeddedResource Include="Skill\zhongji5.JPG" />
+    <EmbeddedResource Include="Skill\zhongji6.JPG" />
+    <EmbeddedResource Include="Skill\zhongji7.JPG" />
+    <EmbeddedResource Include="Skill\zhongji8.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="People\kings.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\lingxing.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\fangti.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\jiben.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Monsters\292.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\equn.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Monsters\293.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\qunju.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\ruanti.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Effect\1001.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Effect\1002.PNG" />
+    <EmbeddedResource Include="Effect\1003.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="People\blank.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\qifu.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon\mix1.PNG" />
+    <EmbeddedResource Include="Icon\mix2.PNG" />
+    <EmbeddedResource Include="Icon\mix3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Spell\117.JPG" />
+    <EmbeddedResource Include="Spell\118.JPG" />
+    <EmbeddedResource Include="Spell\119.JPG" />
+    <EmbeddedResource Include="Spell\120.JPG" />
+    <EmbeddedResource Include="Spell\121.JPG" />
+    <EmbeddedResource Include="Spell\122.JPG" />
+    <EmbeddedResource Include="Spell\123.JPG" />
+    <EmbeddedResource Include="Spell\124.JPG" />
+    <EmbeddedResource Include="Spell\125.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\fengqun.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Equip\shenqi01.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Equip\shenqi02.JPG" />
+    <EmbeddedResource Include="Equip\shenqi03.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Equip\shenqi04.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Monsters\294.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\kongling.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Monsters\295.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\kuangye.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Monsters\296.JPG" />
+    <EmbeddedResource Include="Monsters\297.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\huoshen.JPG" />
+    <EmbeddedResource Include="Skill\shuishen.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Monsters\298.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\chanrao.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Cursor\mskill.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\shengying.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Monsters\299.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Buff\godhint.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\SideButton7.PNG" />
+    <EmbeddedResource Include="Button\SideButton7On.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon\mth1.PNG" />
+    <EmbeddedResource Include="Icon\mth2.PNG" />
+    <EmbeddedResource Include="Icon\mth3.PNG" />
+    <EmbeddedResource Include="Icon\mth4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon\oth1.PNG" />
+    <EmbeddedResource Include="Icon\oth2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Farm\back.JPG" />
+    <EmbeddedResource Include="Farm\back2.JPG" />
+    <EmbeddedResource Include="Farm\tile1.PNG" />
+    <EmbeddedResource Include="Farm\tile1On.PNG" />
+    <EmbeddedResource Include="Farm\tile2.PNG" />
+    <EmbeddedResource Include="Farm\tile2On.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\SideButton8.PNG" />
+    <EmbeddedResource Include="Button\SideButton8On.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon\oth3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon\oth4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="People\ling.PNG" />
+    <EmbeddedResource Include="People\yaslani.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon\job1.PNG" />
+    <EmbeddedResource Include="Icon\job2.PNG" />
+    <EmbeddedResource Include="Icon\job3.PNG" />
+    <EmbeddedResource Include="Icon\job4.PNG" />
+    <EmbeddedResource Include="Icon\job5.PNG" />
+    <EmbeddedResource Include="Icon\job6.PNG" />
+    <EmbeddedResource Include="Icon\job7.PNG" />
+    <EmbeddedResource Include="Icon\job8.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Cursor\fight.PNG" />
+    <EmbeddedResource Include="Cursor\move.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Move\trap1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Buff\rush.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\jizou.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\SideButton9.PNG" />
+    <EmbeddedResource Include="Button\SideButton9On.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\MainIcon3.PNG" />
+    <EmbeddedResource Include="Button\MainIcon3On.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Farm\veg1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Item\veg1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Item\vegseed1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Farm\veg2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Item\veg2.JPG" />
+    <EmbeddedResource Include="Item\vegseed2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Item\veg3.JPG" />
+    <EmbeddedResource Include="Item\veg4.JPG" />
+    <EmbeddedResource Include="Item\vegseed3.JPG" />
+    <EmbeddedResource Include="Item\vegseed4.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Farm\veg3.PNG" />
+    <EmbeddedResource Include="Farm\veg4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="System\ArrowS.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\SideButton10.PNG" />
+    <EmbeddedResource Include="Button\SideButton10On.PNG" />
+    <EmbeddedResource Include="Button\SideButton11.PNG" />
+    <EmbeddedResource Include="Button\SideButton11On.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\SideButton12.PNG" />
+    <EmbeddedResource Include="Button\SideButton12On.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\SideButton13.PNG" />
+    <EmbeddedResource Include="Button\SideButton13On.PNG" />
+    <EmbeddedResource Include="Button\SideButton14.PNG" />
+    <EmbeddedResource Include="Button\SideButton14On.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MiniGame\Soup\item1.PNG" />
+    <EmbeddedResource Include="MiniGame\Soup\item2.PNG" />
+    <EmbeddedResource Include="MiniGame\Soup\item3.PNG" />
+    <EmbeddedResource Include="MiniGame\Soup\item4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="System\Rip.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Buff\dtile.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Buff\rebel.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Weather\d1.JPG" />
+    <EmbeddedResource Include="Weather\d2.JPG" />
+    <EmbeddedResource Include="Weather\s0.JPG" />
+    <EmbeddedResource Include="Weather\s1.JPG" />
+    <EmbeddedResource Include="Weather\w0.JPG" />
+    <EmbeddedResource Include="Weather\w1.JPG" />
+    <EmbeddedResource Include="Weather\w2.JPG" />
+    <EmbeddedResource Include="Weather\w3.JPG" />
+    <EmbeddedResource Include="Weather\w4.JPG" />
+    <EmbeddedResource Include="Weather\w5.JPG" />
+    <EmbeddedResource Include="Weather\w6.JPG" />
+    <EmbeddedResource Include="Weather\w7.JPG" />
+    <EmbeddedResource Include="Weather\w8.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon\sym1.PNG" />
+    <EmbeddedResource Include="Icon\sym2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Spell\126.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Spell\127.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\baoji1.JPG" />
+    <EmbeddedResource Include="Skill\baoji2.JPG" />
+    <EmbeddedResource Include="Skill\baoji3.JPG" />
+    <EmbeddedResource Include="Skill\podun1.JPG" />
+    <EmbeddedResource Include="Skill\podun2.JPG" />
+    <EmbeddedResource Include="Skill\podun3.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\moyao2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\SideButton15.PNG" />
+    <EmbeddedResource Include="Button\SideButton15On.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MiniGame\t3.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\SwitchButton.JPG" />
+    <EmbeddedResource Include="Button\SwitchButtonOn.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\ExpButton.JPG" />
+    <EmbeddedResource Include="Button\ExpButtonOn.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\AddExpButton.JPG" />
+    <EmbeddedResource Include="Button\AddExpButtonOn.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Buff\fight.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon\sym3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\SideButton16.PNG" />
+    <EmbeddedResource Include="Button\SideButton16On.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MiniGame\t4.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\SpinButton.JPG" />
+    <EmbeddedResource Include="Button\SpinButtonOn.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MapIcon\kk.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Scene\17.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="NPC\timu.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="NPC\shangren.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Item\bingposuipian.JPG" />
+    <EmbeddedResource Include="Item\dahuoxuedan.JPG" />
+    <EmbeddedResource Include="Item\qingbao.JPG" />
+    <EmbeddedResource Include="Item\shangwuhuiji.JPG" />
+    <EmbeddedResource Include="Item\zunzhefu.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Item\tiliyaoshui.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon\oth5.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon\tsk9.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="HeroSkill\skill99.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="HeroSkill\Attr\attr1.JPG" />
+    <EmbeddedResource Include="HeroSkill\Attr\attr2.JPG" />
+    <EmbeddedResource Include="HeroSkill\Attr\attr3.JPG" />
+    <EmbeddedResource Include="HeroSkill\Attr\attr4.JPG" />
+    <EmbeddedResource Include="HeroSkill\Attr\attr5.JPG" />
+    <EmbeddedResource Include="HeroSkill\Attr\attr6.JPG" />
+    <EmbeddedResource Include="HeroSkill\Attr\attr7.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\MainIcon6.PNG" />
+    <EmbeddedResource Include="Button\MainIcon6On.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon\oth6.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\AnswerButton.JPG" />
+    <EmbeddedResource Include="Button\AnswerButtonOn.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LevelInfo\1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Border\border3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LevelInfo\2.JPG" />
+    <EmbeddedResource Include="LevelInfo\3.JPG" />
+    <EmbeddedResource Include="LevelInfo\4.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LevelInfo\10.JPG" />
+    <EmbeddedResource Include="LevelInfo\5.JPG" />
+    <EmbeddedResource Include="LevelInfo\6.JPG" />
+    <EmbeddedResource Include="LevelInfo\7.JPG" />
+    <EmbeddedResource Include="LevelInfo\8.JPG" />
+    <EmbeddedResource Include="LevelInfo\9.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\MiniPeopleType1.JPG" />
+    <EmbeddedResource Include="Button\MiniPeopleType1On.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\MiniPeopleType2.JPG" />
+    <EmbeddedResource Include="Button\MiniPeopleType2On.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\MiniPeopleType3.JPG" />
+    <EmbeddedResource Include="Button\MiniPeopleType3On.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\MiniPeopleType101.JPG" />
+    <EmbeddedResource Include="Button\MiniPeopleType101On.JPG" />
+    <EmbeddedResource Include="Button\MiniPeopleType102.JPG" />
+    <EmbeddedResource Include="Button\MiniPeopleType102On.JPG" />
+    <EmbeddedResource Include="Button\MiniPeopleType4.JPG" />
+    <EmbeddedResource Include="Button\MiniPeopleType4On.JPG" />
+    <EmbeddedResource Include="Button\MiniPeopleType5.JPG" />
+    <EmbeddedResource Include="Button\MiniPeopleType5On.JPG" />
+    <EmbeddedResource Include="Button\MiniPeopleType6.JPG" />
+    <EmbeddedResource Include="Button\MiniPeopleType6On.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon\npcbuypiece.PNG" />
+    <EmbeddedResource Include="Icon\npcchangecard.PNG" />
+    <EmbeddedResource Include="Icon\npcgamebattlerobot.PNG" />
+    <EmbeddedResource Include="Icon\npcgameiconscatch.PNG" />
+    <EmbeddedResource Include="Icon\npcgameuptonumber.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MiniGame\t5.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\SideButton17.PNG" />
+    <EmbeddedResource Include="Button\SideButton17On.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon\npcgamethreebody.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MiniGame\Planet\star1.PNG" />
+    <EmbeddedResource Include="MiniGame\Planet\star2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\GameSanTi1.PNG" />
+    <EmbeddedResource Include="Button\GameSanTi1On.PNG" />
+    <EmbeddedResource Include="Button\GameSanTi2.PNG" />
+    <EmbeddedResource Include="Button\GameSanTi2On.PNG" />
+    <EmbeddedResource Include="Button\GameSanTi3.PNG" />
+    <EmbeddedResource Include="Button\GameSanTi3On.PNG" />
+    <EmbeddedResource Include="Button\GameSanTi4.PNG" />
+    <EmbeddedResource Include="Button\GameSanTi4On.PNG" />
+    <EmbeddedResource Include="Button\GameSanTi5.PNG" />
+    <EmbeddedResource Include="Button\GameSanTi5On.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\TurnOnButton.JPG" />
+    <EmbeddedResource Include="Button\TurnOnButtonOn.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\GameUpToNumber1.PNG" />
+    <EmbeddedResource Include="Button\GameUpToNumber1On.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\CommonButton1.JPG" />
+    <EmbeddedResource Include="Button\CommonButton1On.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\MainIcon10.PNG" />
+    <EmbeddedResource Include="Button\MainIcon10On.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\ActiveButton.JPG" />
+    <EmbeddedResource Include="Button\ActiveButtonOn.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon\oth7.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button\ShopTag.JPG" />
+    <EmbeddedResource Include="Button\ShopTagOn.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\lingdao.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Buff\royal.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\huoyandun.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Buff\fireshield.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Hero\0f.JPG" />
+    <EmbeddedResource Include="Hero\0m.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon\con1.PNG" />
+    <EmbeddedResource Include="Icon\con10.PNG" />
+    <EmbeddedResource Include="Icon\con11.PNG" />
+    <EmbeddedResource Include="Icon\con12.PNG" />
+    <EmbeddedResource Include="Icon\con2.PNG" />
+    <EmbeddedResource Include="Icon\con3.PNG" />
+    <EmbeddedResource Include="Icon\con4.PNG" />
+    <EmbeddedResource Include="Icon\con5.PNG" />
+    <EmbeddedResource Include="Icon\con6.PNG" />
+    <EmbeddedResource Include="Icon\con7.PNG" />
+    <EmbeddedResource Include="Icon\con8.PNG" />
+    <EmbeddedResource Include="Icon\con9.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\miaozhun.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\qianxing.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Buff\slink.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\jishu.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\gelie.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\yexing2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\mofajian.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\chuanshe.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\sushe.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\chenmojian.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\jianren.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\sanyuanren.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="People\test.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="People\test2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Skill\baozifen.JPG" />
+    <EmbeddedResource Include="Skill\fenchen.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Buff\pinkdust.PNG" />
+    <EmbeddedResource Include="Buff\sporedust.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Item\jingyandan1.JPG" />
+    <EmbeddedResource Include="Item\jingyandan2.JPG" />
+    <EmbeddedResource Include="Item\jingyandan3.JPG" />
+    <EmbeddedResource Include="Item\jingyandan4.JPG" />
+    <EmbeddedResource Include="Item\jingyandan5.JPG" />
+    <EmbeddedResource Include="Item\jingyandan6.JPG" />
+    <EmbeddedResource Include="Item\jingyandan7.JPG" />
+    <EmbeddedResource Include="Item\jingyandan8.JPG" />
+    <EmbeddedResource Include="Item\jingyandan9.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Effect\83.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon\mdl1.PNG" />
+    <EmbeddedResource Include="Icon\mdl2.PNG" />
+    <EmbeddedResource Include="Icon\mdl3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Weapon\118.JPG" />
+    <EmbeddedResource Include="Weapon\119.JPG" />
+    <EmbeddedResource Include="Weapon\120.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Weapon\121.JPG" />
+    <EmbeddedResource Include="Weapon\122.JPG" />
+    <EmbeddedResource Include="Weapon\123.JPG" />
+    <EmbeddedResource Include="Weapon\124.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Weapon\125.JPG" />
+    <EmbeddedResource Include="Weapon\126.JPG" />
+    <EmbeddedResource Include="Weapon\127.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon\abl11.PNG" />
+    <EmbeddedResource Include="Icon\abl12.PNG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

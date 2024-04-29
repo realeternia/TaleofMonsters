@@ -1,0 +1,10 @@
+G:\Program\DeckManager\ExcelToCsv\bin\Debug\ExcelToCsv.exe
+G:\Program\DeckManager\ExcelToCsv\bin\Debug\ExcelToCsv.pdb
+G:\Program\DeckManager\ExcelToCsv\obj\Debug\ResolveAssemblyReference.cache
+G:\Program\DeckManager\ExcelToCsv\obj\Debug\ExcelToCsv.exe
+G:\Program\DeckManager\ExcelToCsv\obj\Debug\ExcelToCsv.pdb
+J:\Program\DeckManager\ExcelToCsv\obj\Debug\ExcelToCsv.exe
+J:\Program\DeckManager\ExcelToCsv\obj\Debug\ExcelToCsv.pdb
+J:\Program\DeckManager\ExcelToCsv\bin\Debug\ExcelToCsv.exe
+J:\Program\DeckManager\ExcelToCsv\bin\Debug\ExcelToCsv.pdb
+J:\Program\DeckManager\ExcelToCsv\obj\Debug\ResolveAssemblyReference.cache

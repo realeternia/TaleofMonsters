@@ -1,0 +1,5 @@
+J:\Program\TaleofMonsters2\bin\Debug\LogServer.exe
+J:\Program\TaleofMonsters2\bin\Debug\LogServer.pdb
+J:\Program\TaleofMonsters2\LogServer\obj\Debug\ResolveAssemblyReference.cache
+J:\Program\TaleofMonsters2\LogServer\obj\Debug\LogServer.exe
+J:\Program\TaleofMonsters2\LogServer\obj\Debug\LogServer.pdb

@@ -1,0 +1,4 @@
+E:\TaleofMonsters\Trunk\PicResource\bin\Debug\PicResource.dll
+E:\TaleofMonsters\Trunk\PicResource\bin\Debug\PicResource.pdb
+E:\TaleofMonsters\Trunk\PicResource\obj\Debug\PicResource.dll
+E:\TaleofMonsters\Trunk\PicResource\obj\Debug\PicResource.pdb

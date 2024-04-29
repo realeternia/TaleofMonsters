@@ -1,0 +1,8 @@
+E:\Program\TaleofMonsters2\DataResource\bin\Debug\DataResource.dll
+E:\Program\TaleofMonsters2\DataResource\bin\Debug\DataResource.pdb
+E:\Program\TaleofMonsters2\DataResource\obj\Debug\DataResource.dll
+E:\Program\TaleofMonsters2\DataResource\obj\Debug\DataResource.pdb
+E:\TaleofMonsters\Trunk\DataResource\bin\Debug\DataResource.dll
+E:\TaleofMonsters\Trunk\DataResource\bin\Debug\DataResource.pdb
+E:\TaleofMonsters\Trunk\DataResource\obj\Debug\DataResource.dll
+E:\TaleofMonsters\Trunk\DataResource\obj\Debug\DataResource.pdb

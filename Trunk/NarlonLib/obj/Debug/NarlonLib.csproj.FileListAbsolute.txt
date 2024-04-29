@@ -1,0 +1,11 @@
+E:\TaleofMonsters\Trunk\NarlonLib\bin\Debug\NarlonLib.dll
+E:\TaleofMonsters\Trunk\NarlonLib\bin\Debug\NarlonLib.pdb
+E:\TaleofMonsters\Trunk\NarlonLib\bin\Debug\log4net.dll
+E:\TaleofMonsters\Trunk\NarlonLib\obj\Debug\NarlonLib.Control.BitmapButton.resources
+E:\TaleofMonsters\Trunk\NarlonLib\obj\Debug\NarlonLib.Control.ImageToolTip.resources
+E:\TaleofMonsters\Trunk\NarlonLib\obj\Debug\NarlonLib.Control.MessageBoxEx.resources
+E:\TaleofMonsters\Trunk\NarlonLib\obj\Debug\NarlonLib.Control.PopedCotainer.resources
+E:\TaleofMonsters\Trunk\NarlonLib\obj\Debug\NarlonLib.csproj.GenerateResource.Cache
+E:\TaleofMonsters\Trunk\NarlonLib\obj\Debug\NarlonLib.dll
+E:\TaleofMonsters\Trunk\NarlonLib\obj\Debug\NarlonLib.pdb
+E:\TaleofMonsters\Trunk\NarlonLib\obj\Debug\NarlonLib.csprojResolveAssemblyReference.cache

@@ -1,0 +1,8 @@
+E:\Program\DeckManager\ExcelToCsv\obj\Debug\ExcelToCsv.exe
+E:\Program\DeckManager\ExcelToCsv\obj\Debug\ExcelToCsv.pdb
+E:\Program\DeckManager\ExcelToCsv\bin\Debug\ExcelToCsv.exe
+E:\Program\DeckManager\ExcelToCsv\bin\Debug\ExcelToCsv.pdb
+E:\TaleofMonsters\Trunk\Tool\ExcelToCsv\obj\Debug\ExcelToCsv.exe
+E:\TaleofMonsters\Trunk\Tool\ExcelToCsv\obj\Debug\ExcelToCsv.pdb
+E:\TaleofMonsters\Trunk\Tool\ExcelToCsv\bin\Debug\ExcelToCsv.exe
+E:\TaleofMonsters\Trunk\Tool\ExcelToCsv\bin\Debug\ExcelToCsv.pdb

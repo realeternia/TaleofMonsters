@@ -1,0 +1,10 @@
+E:\Program\TaleofMonsters2\bin\Debug\LogServer.exe
+E:\Program\TaleofMonsters2\bin\Debug\LogServer.pdb
+E:\Program\TaleofMonsters2\LogServer\obj\Debug\LogServer.csprojResolveAssemblyReference.cache
+E:\Program\TaleofMonsters2\LogServer\obj\Debug\LogServer.exe
+E:\Program\TaleofMonsters2\LogServer\obj\Debug\LogServer.pdb
+E:\TaleofMonsters\Trunk\bin\Debug\LogServer.exe
+E:\TaleofMonsters\Trunk\bin\Debug\LogServer.pdb
+E:\TaleofMonsters\Trunk\LogServer\obj\Debug\LogServer.csprojResolveAssemblyReference.cache
+E:\TaleofMonsters\Trunk\LogServer\obj\Debug\LogServer.exe
+E:\TaleofMonsters\Trunk\LogServer\obj\Debug\LogServer.pdb
